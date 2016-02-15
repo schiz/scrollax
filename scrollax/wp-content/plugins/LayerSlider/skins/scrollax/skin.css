@@ -1,0 +1,242 @@
+/* LayerSlider Scrollax Skin */
+
+
+
+.ls-scrollax {
+}
+
+.ls-scrollax .ls-bottom-nav-wrapper {
+    display: none;
+	margin: 15px auto 0px auto;
+}
+
+.ls-scrollax .ls-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+
+.ls-scrollax .ls-playvideo,
+.ls-scrollax .ls-nav-sides,
+.ls-scrollax .ls-bottom-slidebuttons a,
+.ls-scrollax .ls-nav-prev,
+.ls-scrollax .ls-nav-next,
+.ls-scrollax .ls-nav-start,
+.ls-scrollax .ls-nav-stop,
+.ls-scrollax .ls-fullscreen,
+.ls-scrollax .ls-loading-container {
+	background-image: url(arrows.png);	
+}
+
+.ls-scrollax .ls-playvideo {
+	background-position: -300px -150px;
+}
+
+.ls-scrollax .ls-playvideo:hover,
+.ls-scrollax .ls-vpcontainer:hover .ls-playvideo {
+	background-position: -375px -150px;
+}
+
+.ls-scrollax .ls-nav-prev {
+	background-position: 0px 0px;
+}
+
+.ls-scrollax .ls-nav-prev:hover {
+	
+}
+
+.ls-scrollax .ls-nav-next {
+	background-position: -150px 0px;
+}
+
+.ls-scrollax .ls-nav-next:hover {
+	
+}
+
+.ls-scrollax .ls-nav-start {
+	background-position: -300px 0px;
+}
+
+.ls-scrollax .ls-nav-start:hover,
+.ls-scrollax .ls-nav-start-active {
+	background-position: -300px -75px;
+}
+
+.ls-scrollax .ls-nav-stop {
+	background-position: -450px 0px;
+}
+
+.ls-scrollax .ls-nav-stop:hover,
+.ls-scrollax .ls-nav-stop-active {
+	background-position: -450px -75px;
+}
+
+.ls-scrollax .ls-bottom-slidebuttons a {
+	background-position: 0px -150px;
+}
+
+.ls-scrollax .ls-bottom-slidebuttons a.ls-nav-active,
+.ls-scrollax .ls-bottom-slidebuttons a:hover {
+	background-position: -75px -150px;
+}
+
+.ls-scrollax .ls-nav-sideleft {
+	background-position: -150px -150px;	
+}
+
+.ls-scrollax .ls-nav-sideright {
+	background-position: -225px -150px;	
+}
+
+
+
+.ls-scrollax .ls-nav-prev,
+.ls-scrollax .ls-nav-next {
+    width: 65px;
+    height: 83px;
+	z-index: 10000;
+    left: 50%;
+	top: 50%;
+	margin-top: -27px;	
+	position: absolute;
+}
+
+.ls-scrollax .ls-nav-prev {
+	margin-left: -450px;	
+}
+
+.ls-scrollax .ls-nav-next {
+	margin-left: 390px;	
+    background-position: 0 -95px;
+}
+
+main .ls-scrollax .ls-nav-prev {
+	margin-top: -130px;	
+	margin-left: -480px;	
+}
+
+main .ls-scrollax .ls-nav-next {
+	margin-top: -130px;	
+	margin-left: 420px;	
+}
+
+
+
+.ls-scrollax .ls-bottom-slidebuttons,
+.ls-scrollax .ls-bottom-slidebuttons a,
+.ls-scrollax .ls-nav-start,
+.ls-scrollax .ls-nav-stop,
+.ls-scrollax .ls-nav-sides {
+	height: 28px;
+}
+
+.ls-scrollax .ls-bottom-slidebuttons,
+.ls-scrollax .ls-bottom-slidebuttons a,
+.ls-scrollax .ls-nav-start,
+.ls-scrollax .ls-nav-stop,
+.ls-scrollax .ls-nav-sides {
+	display: inline-block;
+}
+
+.ls-scrollax .ls-nav-start,
+.ls-scrollax .ls-nav-stop {
+	width: 24px;
+}
+
+.ls-scrollax .ls-bottom-slidebuttons a {
+	width: 20px;
+}
+
+.ls-scrollax .ls-nav-sides {
+	width: 6px;	
+}
+
+
+
+.ls-scrollax .ls-thumbnail-hover {
+	bottom: 55px;
+	padding: 4px;
+	margin-left: 1px;
+}
+
+.ls-scrollax .ls-thumbnail-hover-bg {
+	background: white;
+	box-shadow: 0px 2px 12px -4px black;
+	border-radius: 4px;
+}
+
+.ls-scrollax .ls-thumbnail-hover span {
+	border: 5px solid white;
+	margin-left: -5px;
+}
+
+
+
+.ls-scrollax .ls-thumbnail {
+	top: -20px;
+}
+
+.ls-scrollax .ls-thumbnail-inner {
+	padding: 5px;
+	margin-left: -5px;
+	background: white;
+	box-shadow: 0px 3px 35px -10px black;
+	border-radius: 4px;
+}
+
+.ls-scrollax .ls-thumbnail-slide a {
+	margin-right: 5px;
+}
+
+.ls-scrollax .ls-nothumb {
+	background: #eee;
+}
+
+
+
+.ls-scrollax .ls-above-thumbnails {
+	display: none;
+}
+
+.ls-scrollax .ls-below-thumbnails {
+	display: block;
+	margin-top: -20px;
+}
+
+
+
+.ls-scrollax .ls-loading-container {
+	width: 40px;
+	height: 40px;
+	margin-left: -20px;
+	margin-top: -20px;
+	background-position: -450px -150px;	
+}
+
+.ls-scrollax .ls-loading-indicator {
+	width: 22px;
+	height: 22px;
+	margin-top: 9px;
+	background-image: url(loading.gif);	
+}
+
+
+
+.ls-scrollax .ls-fullscreen {
+	width: 30px;
+	height: 30px;
+	right: 10px;
+	top: 10px;
+	background-position: -525px -150px;
+}
+
+.ls-scrollax .ls-fullscreen:hover {
+	background-position: -525px -190px;
+}
+
+.ls-nav-container {
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+}

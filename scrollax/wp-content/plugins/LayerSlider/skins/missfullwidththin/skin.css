@@ -1,0 +1,223 @@
+/* LayerSlider Full Width Skin */
+
+
+
+.ls-missfullwidththin .ls-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+
+.ls-missfullwidththin .ls-playvideo,
+.ls-missfullwidththin .ls-nav-sides,
+.ls-missfullwidththin .ls-bottom-slidebuttons a,
+.ls-missfullwidththin .ls-nav-start,
+.ls-missfullwidththin .ls-nav-stop,
+.ls-missfullwidththin .ls-fullscreen,
+.ls-missfullwidththin .ls-loading-container {
+	background-image: url(skin.png);	
+}
+
+.ls-missfullwidththin .ls-playvideo {
+	background-position: -300px -150px;
+}
+
+.ls-missfullwidththin .ls-playvideo:hover,
+.ls-missfullwidththin .ls-vpcontainer:hover .ls-playvideo {
+	background-position: -375px -150px;
+}
+
+.ls-missfullwidththin .ls-nav-start {
+	background-position: -300px 0px;
+}
+
+.ls-missfullwidththin .ls-nav-start:hover,
+.ls-missfullwidththin .ls-nav-start-active {
+	background-position: -300px -75px;
+}
+
+.ls-missfullwidththin .ls-nav-stop {
+	background-position: -450px 0px;
+}
+
+.ls-missfullwidththin .ls-nav-stop:hover,
+.ls-missfullwidththin .ls-nav-stop-active {
+	background-position: -450px -75px;
+}
+
+.ls-missfullwidththin .ls-bottom-slidebuttons a {
+	background-position: 0px -150px;
+}
+
+.ls-missfullwidththin .ls-bottom-slidebuttons a.ls-nav-active,
+.ls-missfullwidththin .ls-bottom-slidebuttons a:hover {
+	background-position: -75px -150px;
+}
+
+.ls-missfullwidththin .ls-nav-sideleft {
+	background-position: -150px -150px;	
+}
+
+.ls-missfullwidththin .ls-nav-sideright {
+	background-position: -225px -150px;	
+}
+
+.ls-missfullwidththin .ls-nav-prev {
+	left: 10px;
+}
+.ls-missfullwidththin .ls-nav-next {
+	right: 10px;
+}
+.ls-missfullwidththin .ls-nav-prev,
+.ls-missfullwidththin .ls-nav-next {
+	width: 56px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	font-size: 36px;
+	background-color: rgba(0,0,0,.5);
+	color: rgba(255,255,255,.8);
+	z-index: 10000;
+	top: 50%;
+	margin-top: -28px;
+	position: absolute;
+	font-family: fontawesome;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.ls-missfullwidththin .ls-nav-prev:before {
+	font-size: 36px;
+	width: 56px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	left: 10px;
+	content: "\f104";
+}
+
+.ls-missfullwidththin .ls-nav-prev:hover {
+	opacity: .8;
+}
+
+.ls-missfullwidththin .ls-nav-next:before {
+	font-size: 36px;
+	width: 56px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	right: 10px;
+	content: "\f105";
+}
+
+.ls-missfullwidththin .ls-nav-next:hover {
+	opacity: .8;
+}
+
+
+
+
+.ls-missfullwidththin .ls-bottom-slidebuttons,
+.ls-missfullwidththin .ls-bottom-slidebuttons a,
+.ls-missfullwidththin .ls-nav-start,
+.ls-missfullwidththin .ls-nav-stop,
+.ls-missfullwidththin .ls-nav-sides {
+	height: 20px;
+}
+
+.ls-missfullwidththin .ls-bottom-slidebuttons,
+.ls-missfullwidththin .ls-bottom-slidebuttons a,
+.ls-missfullwidththin .ls-nav-start,
+.ls-missfullwidththin .ls-nav-stop,
+.ls-missfullwidththin .ls-nav-sides {
+	display: inline-block;
+}
+
+.ls-missfullwidththin .ls-bottom-slidebuttons,
+.ls-missfullwidththin .ls-nav-start,
+.ls-missfullwidththin .ls-nav-stop,
+.ls-missfullwidththin .ls-nav-sides {
+	top: -30px;
+}
+
+.ls-missfullwidththin .ls-nav-start,
+.ls-missfullwidththin .ls-nav-stop {
+	width: 25px;
+}
+
+.ls-missfullwidththin .ls-bottom-slidebuttons a {
+	width: 20px;
+}
+
+.ls-missfullwidththin .ls-nav-sides {
+	width: 0px;	
+}
+
+
+
+.ls-missfullwidththin .ls-thumbnail-hover {
+	bottom: 30px;
+	padding: 2px;
+	margin-left: 1px;
+}
+
+.ls-missfullwidththin .ls-thumbnail-hover-bg {
+	background: #eee;
+}
+
+.ls-missfullwidththin .ls-thumbnail-hover span {
+	border: 5px solid #eee;
+	margin-left: -5px;
+}
+
+
+
+.ls-missfullwidththin .ls-thumbnail {
+	top: 10px;
+}
+
+.ls-missfullwidththin .ls-thumbnail-inner {
+	padding: 2px;
+	margin-left: -2px;
+	background: #fff;
+}
+
+.ls-missfullwidththin .ls-thumbnail-slide a {
+	margin-right: 2px;
+}
+
+.ls-missfullwidththin .ls-nothumb {
+	background: #eee;
+}
+
+
+
+.ls-missfullwidththin .ls-loading-container {
+	width: 40px;
+	height: 40px;
+	margin-left: -20px;
+	margin-top: -20px;
+	background-position: -450px -150px;	
+}
+
+.ls-missfullwidththin .ls-loading-indicator {
+	width: 22px;
+	height: 22px;
+	margin-top: 9px;
+	background-image: url(loading.gif);	
+}
+
+
+
+.ls-missfullwidththin .ls-fullscreen {
+	width: 30px;
+	height: 30px;
+	right: 10px;
+	top: 10px;
+	background-position: -525px -150px;
+}
+
+.ls-missfullwidththin .ls-fullscreen:hover {
+	background-position: -525px -190px;
+}
