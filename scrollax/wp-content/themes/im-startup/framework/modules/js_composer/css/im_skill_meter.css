@@ -1,0 +1,50 @@
+/**
+ * Skill Meter and Charts Frontend
+ * 
+ * @package startup
+ */
+
+.im-skill-meter {
+  margin-bottom: 15px;
+}
+.im-skill-meter .im-skill-meter-title {
+  margin-bottom: 6px;
+  font-weight: bold;
+  display: block;
+  line-height: 14px;
+}
+.im-skill-meter .im-progress-bar {
+  background-color: #dcdcdc;
+  background-color: rgba(0, 0, 0, 0.12);
+  position: relative;
+  height: 14px;
+  display: block;
+}
+.im-skill-meter .im-progress-bar .progress-outer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.04)), to(rgba(0, 0, 0, 0.1)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.1));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.1));
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.im-skill-meter .im-progress-bar .progress-inner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  overflow: hidden;
+  z-index: 1;
+}
+.progress-outer,
+.progress-inner,
+.im-progress-bar {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}

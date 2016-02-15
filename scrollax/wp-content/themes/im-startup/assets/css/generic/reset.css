@@ -1,0 +1,62 @@
+/*
+ *  CSS Reset
+ *  Created by Mike Myles
+ */
+* html body {
+margin-top:0!important
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+font-style:normal;
+font-weight:400
+}
+
+input {
+outline:none
+}
+
+ol,ul {
+list-style:none
+}
+
+caption,th {
+text-align:left
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-weight:400
+}
+
+q:before,q:after {
+content:''
+}
+
+.clearfix:after {
+content:".";
+display:block;
+clear:both;
+visibility:hidden;
+line-height:0;
+height:0
+}
+
+html[xmlns] .clearfix {
+display:block
+}
+
+* html .clearfix {
+height:1%
+}
+
+.clear {
+clear:both
+}
+
+.pull-right-important {
+float:right!important
+}

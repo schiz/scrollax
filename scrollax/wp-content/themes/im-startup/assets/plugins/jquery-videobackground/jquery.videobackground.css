@@ -1,0 +1,63 @@
+/*!
+ * jQuery Video Background plugin
+ * https://github.com/georgepaterson/jquery-videobackground
+ *
+ * Copyright 2011, George Paterson
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ *
+ */
+/*
+ * The following styles are for example only.
+ * Styling will likely be project specific. 
+ *
+ */	
+.ui-video-background {
+	position: absolute;
+	display: none;
+	top: 30px;
+	left: 840px;
+}
+.ui-video-background-controls {
+	/*display: none;*/
+	margin: 0;
+	padding: 0 10px;
+}
+.ui-video-background-controls li {
+	float: left;
+	padding: 10px;
+}
+.video-background video,
+.videobackground video {
+	min-height: 100%; 
+	min-width:100%; 
+}
+.video-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+.video-background .dim {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.videobackground-ctl {
+	width: 100%;
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*padding: 25px 0 0 0;*/
+	height: 30px;
+	margin-top:10px;
+}
+.videobackground-ctl i, .videobackground-ctl a {
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+	margin-right: 4px;
+}

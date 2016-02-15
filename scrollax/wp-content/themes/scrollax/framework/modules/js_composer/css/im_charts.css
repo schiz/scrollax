@@ -1,0 +1,53 @@
+/**
+ * Skill Meter and Charts Frontend
+ * 
+ * @package startup
+ */
+
+/* Shortcode : Skill Meter Chart
+-------------------------------------------------------------------- */
+.im-skill-chart {
+  text-align: center;
+}
+/* Charts
+-------------------------------------------------------------------- */
+.im-chart {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+.im-chart canvas {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.im-chart i,
+.im-chart .chart-custom-text,
+.im-chart .chart-percent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #444;
+}
+.im-chart .chart-custom-text {
+  font-size: 18px;
+}
+.im-chart .chart-percent {
+  font-size: 16px;
+  font-weight: bold;
+}
+.im-chart-desc {
+  font-size: 12px;
+  text-align: center;
+  display: block;
+}
+@media handheld, only screen and (max-width: 600px) {
+  .im-chart {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,11 @@
+#titlediv #title {
+    height: 32px;
+}
+/* fix little bootstrap bug */
+/*
+[class*="span"]{
+    float: none !important;
+    min-height: 1px;
+    margin-left: 0px !important;
+}
+*/

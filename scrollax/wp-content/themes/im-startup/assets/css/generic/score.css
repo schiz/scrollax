@@ -1,0 +1,710 @@
+.rating_row:last-child {
+border-width:0
+}
+
+.rating_row:first-child {
+padding-top:0
+}
+
+.rating_box .red,.rating_box .black,.rating_box .blue,.rating_box .green,.rating_box .purple,.rating_box .yellow {
+background-color:transparent!important;
+border:none!important
+}
+
+.rating_box .rates {
+display:block;
+margin-bottom:5px
+}
+
+.rating_box .overall_rating,.rating_box .total_rating {
+display:block
+}
+
+.rating_box .overall_rating .star,.rating_box .total_rating .star {
+margin-top:5px
+}
+
+.rating_box .star,.rating_box .circle,.rating_box .heart {
+display:inline-block;
+background:url(../../images/sprites/scores.png);
+background-repeat:none
+}
+
+.rating_box .heart.large,.rating_box .circle.large {
+width:26px;
+height:26px
+}
+
+.rating_box .star.large {
+width:32px;
+height:32px
+}
+
+.rating_box .star.medium,.rating_box .heart.medium,.rating_box .circle.medium {
+width:16px;
+height:16px
+}
+
+.rating_box .star.small,.rating_box .heart.small,.rating_box .circle.small {
+width:12px;
+height:12px
+}
+
+.rating_box .star.medium.red {
+background-position:-310px -68px
+}
+
+.rating_box .star.medium.red.half {
+background-position:-327px -68px
+}
+
+.rating_box .star.medium.blue {
+background-position:-310px -31px
+}
+
+.rating_box .star.medium.blue.half {
+background-position:-327px -31px
+}
+
+.rating_box .star.medium.yellow {
+background-position:-310px -12px
+}
+
+.rating_box .star.medium.yellow.half {
+background-position:-327px -12px
+}
+
+.rating_box .star.medium.green {
+background-position:-310px -50px
+}
+
+.rating_box .star.medium.green.half {
+background-position:-327px -50px
+}
+
+.rating_box .star.medium.purple {
+background-position:-310px -87px
+}
+
+.rating_box .star.medium.purple.half {
+background-position:-327px -87px
+}
+
+.rating_box .star.medium.black {
+background-position:-310px -105px
+}
+
+.rating_box .star.medium.black.half {
+background-position:-327px -105px
+}
+
+.rating_box .star.medium.zero {
+background-position:-343px -12px
+}
+
+.rating_box .circle.medium.red {
+background-position:-362px -68px
+}
+
+.rating_box .circle.medium.red.half {
+background-position:-379px -68px
+}
+
+.rating_box .circle.medium.blue {
+background-position:-362px -30px
+}
+
+.rating_box .circle.medium.blue.half {
+background-position:-379px -30px
+}
+
+.rating_box .circle.medium.yellow {
+background-position:-362px -12px
+}
+
+.rating_box .circle.medium.yellow.half {
+background-position:-379px -12px
+}
+
+.rating_box .circle.medium.green {
+background-position:-362px -50px
+}
+
+.rating_box .circle.medium.green.half {
+background-position:-379px -50px
+}
+
+.rating_box .circle.medium.purple {
+background-position:-362px -86px
+}
+
+.rating_box .circle.medium.purple.half {
+background-position:-379px -86px
+}
+
+.rating_box .circle.medium.black {
+background-position:-362px -105px
+}
+
+.rating_box .circle.medium.black.half {
+background-position:-379px -105px
+}
+
+.rating_box .circle.medium.zero {
+background-position:-395px -12px
+}
+
+.rating_box .heart.medium.red {
+background-position:-411px -68px
+}
+
+.rating_box .heart.medium.red.half {
+background-position:-425px -68px
+}
+
+.rating_box .heart.medium.blue {
+background-position:-411px -31px
+}
+
+.rating_box .heart.medium.blue.half {
+background-position:-425px -31px
+}
+
+.rating_box .heart.medium.yellow {
+background-position:-411px -12px
+}
+
+.rating_box .heart.medium.yellow.half {
+background-position:-425px -12px
+}
+
+.rating_box .heart.medium.green {
+background-position:-411px -49px
+}
+
+.rating_box .heart.medium.green.half {
+background-position:-425px -49px
+}
+
+.rating_box .heart.medium.purple {
+background-position:-411px -86px
+}
+
+.rating_box .heart.medium.purple.half {
+background-position:-425px -86px
+}
+
+.rating_box .heart.medium.black {
+background-position:-410px -104px
+}
+
+.rating_box .heart.medium.black.half {
+background-position:-424px -104px
+}
+
+.rating_box .heart.medium.zero {
+background-position:-440px -12px
+}
+
+.rating_box .star.small.red {
+background-position:-312px -177px
+}
+
+.rating_box .star.small.red.half {
+background-position:-324px -177px
+}
+
+.rating_box .star.small.blue {
+background-position:-312px -149px
+}
+
+.rating_box .star.small.blue.half {
+background-position:-324px -149px
+}
+
+.rating_box .star.small.yellow {
+background-position:-312px -135px
+}
+
+.rating_box .star.small.yellow.half {
+background-position:-324px -135px
+}
+
+.rating_box .star.small.green {
+background-position:-312px -163px
+}
+
+.rating_box .star.small.green.half {
+background-position:-324px -163px
+}
+
+.rating_box .star.small.purple {
+background-position:-312px -191px
+}
+
+.rating_box .star.small.purple.half {
+background-position:-324px -191px
+}
+
+.rating_box .star.small.black {
+background-position:-312px -204px
+}
+
+.rating_box .star.small.black.half {
+background-position:-324px -204px
+}
+
+.rating_box .star.small.zero {
+background-position:-336px -135px
+}
+
+.rating_box .circle.small.red {
+background-position:-351px -177px
+}
+
+.rating_box .circle.small.red.half {
+background-position:-363px -177px
+}
+
+.rating_box .circle.small.blue {
+background-position:-351px -149px
+}
+
+.rating_box .circle.small.blue.half {
+background-position:-363px -149px
+}
+
+.rating_box .circle.small.yellow {
+background-position:-351px -135px
+}
+
+.rating_box .circle.small.yellow.half {
+background-position:-363px -135px
+}
+
+.rating_box .circle.small.green {
+background-position:-351px -163px
+}
+
+.rating_box .circle.small.green.half {
+background-position:-363px -163px
+}
+
+.rating_box .circle.small.purple {
+background-position:-351px -191px
+}
+
+.rating_box .circle.small.purple.half {
+background-position:-363px -191px
+}
+
+.rating_box .circle.small.black {
+background-position:-351px -204px
+}
+
+.rating_box .circle.small.black.half {
+background-position:-363px -204px
+}
+
+.rating_box .circle.small.zero {
+background-position:-375px -135px
+}
+
+.rating_box .heart.small.red {
+background-position:-387px -177px
+}
+
+.rating_box .heart.small.red.half {
+background-position:-399px -177px
+}
+
+.rating_box .heart.small.blue {
+background-position:-387px -149px
+}
+
+.rating_box .heart.small.blue.half {
+background-position:-399px -149px
+}
+
+.rating_box .heart.small.yellow {
+background-position:-387px -135px
+}
+
+.rating_box .heart.small.yellow.half {
+background-position:-399px -135px
+}
+
+.rating_box .heart.small.green {
+background-position:-387px -163px
+}
+
+.rating_box .heart.small.green.half {
+background-position:-399px -163px
+}
+
+.rating_box .heart.small.purple {
+background-position:-387px -191px
+}
+
+.rating_box .heart.small.purple.half {
+background-position:-399px -191px
+}
+
+.rating_box .heart.small.black {
+background-position:-386px -204px
+}
+
+.rating_box .heart.small.black.half {
+background-position:-398px -204px
+}
+
+.rating_box .heart.small.zero {
+background-position:-410px -135px
+}
+
+.rating_box .heart.large.red {
+background-position:-209px -123px
+}
+
+.rating_box .heart.large.red.half {
+background-position:-239px -123px
+}
+
+.rating_box .heart.large.blue {
+background-position:-209px -49px
+}
+
+.rating_box .heart.large.blue.half {
+background-position:-239px -49px
+}
+
+.rating_box .heart.large.yellow {
+background-position:-209px -12px
+}
+
+.rating_box .heart.large.yellow.half {
+background-position:-239px -12px
+}
+
+.rating_box .heart.large.green {
+background-position:-209px -87px
+}
+
+.rating_box .heart.large.green.half {
+background-position:-239px -87px
+}
+
+.rating_box .heart.large.purple {
+background-position:-209px -160px
+}
+
+.rating_box .heart.large.purple.half {
+background-position:-239px -160px
+}
+
+.rating_box .heart.large.black {
+background-position:-208px -196px
+}
+
+.rating_box .heart.large.black.half {
+background-position:-238px -196px
+}
+
+.rating_box .heart.large.zero {
+background-position:-269px -12px
+}
+
+.rating_box .circle.large.red {
+background-position:-111px -123px
+}
+
+.rating_box .circle.large.red.half {
+background-position:-143px -123px
+}
+
+.rating_box .circle.large.blue {
+background-position:-111px -49px
+}
+
+.rating_box .circle.large.blue.half {
+background-position:-143px -49px
+}
+
+.rating_box .circle.large.yellow {
+background-position:-111px -12px
+}
+
+.rating_box .circle.large.yellow.half {
+background-position:-143px -12px
+}
+
+.rating_box .circle.large.green {
+background-position:-111px -87px
+}
+
+.rating_box .circle.large.green.half {
+background-position:-143px -87px
+}
+
+.rating_box .circle.large.purple {
+background-position:-111px -160px
+}
+
+.rating_box .circle.large.purple.half {
+background-position:-143px -160px
+}
+
+.rating_box .circle.large.black {
+background-position:-111px -197px
+}
+
+.rating_box .circle.large.black.half {
+background-position:-143px -197px
+}
+
+.rating_box .circle.large.zero {
+background-position:-175px -12px
+}
+
+.rating_box .star.large.red {
+background-position:-5px -118px
+}
+
+.rating_box .star.large.red.half {
+background-position:-38px -118px
+}
+
+.rating_box .star.large.blue {
+background-position:-5px -44px
+}
+
+.rating_box .star.large.blue.half {
+background-position:-38px -44px
+}
+
+.rating_box .star.large.yellow {
+background-position:-5px -7px
+}
+
+.rating_box .star.large.yellow.half {
+background-position:-38px -7px
+}
+
+.rating_box .star.large.green {
+background-position:-5px -82px
+}
+
+.rating_box .star.large.green.half {
+background-position:-38px -82px
+}
+
+.rating_box .star.large.purple {
+background-position:-5px -156px
+}
+
+.rating_box .star.large.purple.half {
+background-position:-38px -156px
+}
+
+.rating_box .star.large.black {
+background-position:-5px -192px
+}
+
+.rating_box .star.large.black.half {
+background-position:-38px -192px
+}
+
+.rating_box .star.large.zero {
+background-position:-71px -7px
+}
+
+.rating_box .rating_stars {
+float:right;
+width:100px;
+padding-top:2px
+}
+
+.rating_box.loop {
+float:right;
+margin-top:9px;
+display:inline-block
+}
+
+.rating_right {
+float:right;
+margin:0 5px 0 0;
+padding:0
+}
+
+.rating_right span {
+float:left
+}
+
+.single_post_module .rating_box {
+width:228px;
+float:left;
+margin:3px 20px 20px 0;
+background:#fafafa;
+padding:15px
+}
+
+.score.total {
+text-align:center;
+font-size:20px;
+padding:0;
+display:inline-block;
+line-height:40px;
+width:40px;
+float:left
+}
+
+.overall_rating {
+margin-bottom:20px
+}
+
+.overall_rating h4 {
+margin-bottom:0
+}
+
+.overall_rating .total-inner {
+height:40px;
+font-weight:900;
+background-color:#efefef;
+margin:0;
+line-height:40px;
+overflow:hidden
+}
+
+.overall_rating .total-inner .right {
+float:right;
+margin-right: 5px;
+}
+
+#sidebar .post_list_module .rating_box {
+width:80px;
+margin-top:7px
+}
+
+#sidebar .post_list_module p.post_meta {
+width:110px;
+float:left
+}
+
+ul.rates,ul.rates li {
+list-style:none;
+margin-left:0;
+padding-left:0
+}
+
+.rating_box ul.rates .star.medium,.rating_box ul.rates .heart.medium,.rating_box ul.rates .circle.medium {
+float:left;
+margin-top:2px
+}
+
+.rating_row {
+border-bottom:1px rgba(0,0,0,.04) solid;
+padding-top:4px;
+padding-bottom:4px
+}
+
+.single_post_module .rating_box {
+width:228px;
+float:left;
+margin:3px 20px 20px 0;
+background:#fafafa;
+padding:15px
+}
+
+.score.total {
+text-align:center;
+font-size:20px;
+padding:0;
+display:inline-block;
+line-height:40px;
+width:40px;
+background-color:#132433;
+color:#f5db39;
+float:left
+}
+
+.overall_rating {
+margin-bottom:20px
+}
+
+.overall_rating h4 {
+margin-bottom:0
+}
+
+.overall_rating .total-inner {
+height:40px;
+font-weight:900;
+background-color:#efefef;
+margin:0;
+line-height:40px;
+overflow:hidden
+}
+
+.overall_rating .total-inner .right {
+float:right;
+margin-right: 5px;
+}
+
+#sidebar .post_list_module .rating_box {
+width:80px;
+margin-top:7px
+}
+
+#sidebar .post_list_module p.post_meta {
+width:110px;
+float:left
+}
+
+ul.rates,ul.rates li {
+list-style:none;
+margin-left:0;
+padding-left:0
+}
+
+.rating_box ul.rates .star.medium,.rating_box ul.rates .heart.medium,.rating_box ul.rates .circle.medium {
+float:left;
+margin-top:2px
+}
+
+.rating_row {
+border-bottom:1px rgba(0,0,0,0.04) solid;
+padding-top:4px;
+padding-bottom:4px
+}
+
+.rank_steam {
+	float: left;
+	margin-left: 2px;
+	position: relative;
+}
+
+.rank_steam .cone i {
+	line-height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.rank_steam .cone {
+	left: 0;
+	position: absolute;
+	overflow: hidden;
+}
+.rank_steam .ctwo {
+	right: 0;
+	position: absolute;
+	overflow: hidden;
+}
+.rank_steam .ctwo i {
+	padding: 0;
+	line-height: 100%;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	position: absolute;
+}

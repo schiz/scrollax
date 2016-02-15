@@ -1,0 +1,749 @@
+// Variables
+@import "variables.less";
+
+// Mixins
+@import "mixins.less";
+
+.ribbon-style {
+  background: transparent url(../img/bg_ribbon.png) top right no-repeat !important;
+  font-family: 'HeliosCond';
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 86px 17px 21px;
+  .border-radius-mx(0);
+  .td(none);
+  .box-shadow-none;
+  .transition-none;
+  
+  &.small-ribbon {
+    background-position: 100% -50px !important;
+    padding: 7px 58px 10px 54px;
+    font-size: 15px;
+  }
+  &.smallest-ribbon {
+    background-position: 100% -100px !important;
+    padding: 2px 55px 6px 28px;
+    font-size: 12px;
+  }
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    color: #ffffff;
+  }
+
+  &.ribbon-light-style {
+    background: transparent url(../img/bg_ribbon.png) 100% -150px no-repeat !important;
+  }
+
+  &.red-ribbon-normal {
+  	background: transparent url(../img/bg_ribbon.png) 100% -300px no-repeat !important;
+  }
+}
+
+.big-ribbon-style {
+  color: #ffffff;
+
+  & > .wrapper {
+    @big-ribbon-height: 87px;
+    position: relative;
+    height: @big-ribbon-height;
+    line-height: @big-ribbon-height - 1px;
+    z-index: 1;
+    padding-bottom: 8px;
+
+    &:before, &:after {
+      background: transparent url(../img/bg_big-ribbon.png) no-repeat;
+      position: absolute;
+      display: block;
+      content: '';
+      top: 0;
+      width: 50%;
+      height: @big-ribbon-height;
+      padding-bottom: 8px;
+      z-index: -1;
+    }
+    &:before {
+      background-position: top left;
+      left: 0;
+    }
+    &:after {
+      background-position: top right;
+      right: 0;
+    }
+  }
+}
+
+#submit-article-comment {
+    background: transparent url(../img/bg_ribbon.png) top right no-repeat !important;
+  font-family: 'HeliosCond';
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 86px 17px 21px;
+  .border-radius-mx(0);
+  .td(none);
+  .box-shadow-none;
+  .transition-none;
+  width: 220px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  padding: 12px 0 15px 0;
+  margin-top: -50px;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    color: #ffffff;
+  }
+}
+
+.inner-pages {
+    background: url(../img/bg_layers/inner_base.png) 50% 0 repeat;
+
+    // Header
+    header.base-layout {
+      background: url(../img/bg_layers/black_header.png) 50% 0 repeat;
+      
+      // Logo
+      .logo {
+        .slogan {
+          color: #7b7b7b;
+        }
+      }
+
+      // Site nav
+      .site-nav {
+        .item {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+body {
+  
+  &.inner-pages {
+    background: url(../img/bg_layers/inner_base.png) 50% 0 repeat;
+
+    // Header
+    header.base-layout {
+      background: url(../img/bg_layers/black_header.png) 50% 0 repeat;
+      
+      // Logo
+      .logo {
+        .slogan {
+          color: #7b7b7b;
+        }
+      }
+
+      // Site nav
+      .site-nav {
+        .item {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+
+// Themes
+// --------------------------------------------------------------------------------
+body {
+
+  @black-theme:   black;
+  @white-theme:   white;
+  @default-theme: @black-theme;
+  
+  //&.customize-support { padding-top: 28px; }
+
+  // Default theme
+  &.default-theme {}
+
+  // Black theme
+  &.black-theme {
+    background: #000000 url(../img/bg_layers/black_base.png) 50% 0 repeat;
+
+    // Headers
+    h1 { color: #ffffff; }
+    h2 { color: #ffffff; }
+    h3 { color: #ffffff; }
+    h4 { color: #ffffff; }
+    h5 { color: #ffffff; }
+    h6 { color: #ffffff; }
+
+    .spacial-header {
+      h1, h2, h3, h4, h5, h6 {
+        color: #7b7b7b;
+      }
+    }
+
+    // Header
+    header.base-layout {
+      background: url(../img/bg_layers/black_header.png) 50% 0 repeat;
+      
+      // Logo
+      .logo {
+        .slogan {
+          color: #7b7b7b;
+        }
+      }
+
+      // Site nav
+      .site-nav {
+        .item {
+          color: #ffffff;
+        }
+      }
+    }
+
+    // Benefits
+    .benefits {
+      h3, h4 {
+        color: #ffffff;
+      }
+      .post-excerpt {
+        color: #7b7b7b;
+      }
+    }
+
+    // Pricing table
+    .pricing-table {
+      .pricetable-inner {
+        .pricetable-column {
+          .pricetable-column-inner {
+            .table-head {
+              .pricetable-name {}
+              .price {
+                .holder {
+                  span {
+                    &.after {
+                      color: #7b7b7b;
+                    }
+                  }
+                }
+              }
+            }
+            .pricing_table_price_shadow {}
+            .features {
+              .details {}
+              .pricetable-feature {
+                span {
+                  &.sub {}
+                }
+              }
+              .pricetable-first, li.pricetable-button-container {}
+            }
+            .pricetable-button-container {}
+            .pricetable-button {}
+          }
+
+          &.pricetable-featured {
+            .pricetable-column-inner {
+              .table-head .pricetable-name {}
+              .features {
+                .pricetable-feature {
+                  background: #d44034;
+
+                  span {
+                    color: #ffffff;
+                  }
+                }
+              } 
+              .pricetable-button {}
+            }
+          }
+        }
+      }
+
+      &.separated {
+        .pricetable-inner {
+          .pricetable-column {
+            .pricetable-column-inner {}
+          }
+        }
+      }
+    }
+
+    // Steps
+    .section-steps {
+      .steps {
+        .wrapper {}
+        .inner-wrapper {}
+        .step {
+          &.first {
+            .triangle.prev {}
+            .triangle.next {}
+          }
+          &.second { .triangle.next {} }
+          &.third  { .triangle.next {} }
+          &.fourth { .triangle.next {} }
+        }
+        .triangle {
+          &.prev {}
+          &.next {}
+        }
+        .step-caption {
+          span {
+            &.count {
+              color: #000000;
+            }
+            &.desc {}
+          }
+        }
+      }
+    }
+    .text-columns {
+      .article {
+        .article-header {
+          h3 {}
+          h4 {
+            color: #ffffff;
+          }
+        }
+        article {
+          color: #7b7b7b;
+        }
+      }
+    }
+
+    // Section 2
+    .main-section-2 .rumen {
+      &:before, &:after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 7px;
+        content: '';
+        background-image: url(../img/bg_layers/black_section-2-rumen.png);
+        background-repeat: repeat-x;
+      }
+      &:before {
+        background-position: 50% 0;
+        top: -7px;
+      }
+      &:after {
+        background-position: 50% -7px;
+        bottom: -7px;
+      }
+    }
+
+    // Section 1
+    .main-section-1 {
+      background: url(../img/bg_layers/black_section-1.png) 50% 0 repeat;
+    }
+
+    // Section 2
+    .main-section-2 {
+      background: url(../img/bg_layers/black_section-2.png) 50% 0 repeat;
+    }
+
+    // Section 3
+    .main-section-3 {
+      background: url(../img/bg_layers/black_section-1.png) 50% 0 repeat;
+    }
+
+    // Section 4
+    .main-section-4 {
+      background: url(../img/bg_layers/black_section-4.png) 50% 0 repeat;
+    }
+
+    // Section 5
+    .main-section-5 {
+      background: url(../img/bg_layers/black_section-1.png) 50% 0 repeat;
+    }
+
+    // Section 6
+    .main-section-6 {
+      background: url(../img/bg_layers/black_section-6.png) 50% 0 repeat;
+    }
+
+    // Section 7
+    .main-section-7 {
+      background: url(../img/bg_layers/black_section-1.png) 50% 0 repeat;
+    }
+
+    // Section 8
+    .main-section-8 {
+      background: #000000 url(../img/bg_layers/black_section-8.png) 50% 0 repeat;
+    }
+
+    // Section 9
+    .main-section-9 {
+      background: url(../img/bg_layers/black_section-6.png) 50% 0 repeat;
+    }
+
+    // Section 10
+    .main-section-10 {
+      background: url(../img/bg_layers/black_section-1.png) 50% 0 repeat;
+    }
+
+    // Section 11
+    .main-section-11 {
+      background: url(../img/bg_layers/black_section-11.png) 50% 0 repeat;
+    }
+
+    // Our Services
+    .grid {
+      .content-item {
+        color: #7b7b7b;
+
+        .header {
+          color: #ffffff;
+
+          .marker {
+            color: #848484;
+          }
+        }
+      }
+    }
+
+    // Featured Products
+    .featured-products {
+
+      .content-item {
+        .header {}
+        .preview {}
+        .price {
+
+          span {}
+          .small {}
+          .big {}
+        }
+        .article {
+          color: #ffffff;
+        }
+      }
+    }
+
+    .display-image {
+      .inner-wrapper {}
+      .display {
+        .image-wrapper {}
+        img {}
+      }
+      .discription {
+        header {
+          color: #ffffff;
+        }
+        article {
+          color: #7b7b7b;
+        }
+      }
+
+      &.small-display {
+        .inner-wrapper {}
+        .display {
+          .image-wrapper {}
+          img {}
+        }
+        .discription {}
+      }
+      &.large-display {
+        .inner-wrapper {}
+        .display {
+          .image-wrapper {}
+          img {}
+        }
+        .discription {}
+      }
+    }
+
+  }
+
+  // White theme
+  &.white-theme {
+    background: #ffffff url(../img/bg_layers/white_base.png) 50% 0 repeat;
+
+    // Headers
+    h1 { color: #0f0f0e; }
+    h2 { color: #0f0f0e; }
+    h3 { color: #0f0f0e; }
+    h4 { color: #0f0f0e; }
+    h5 { color: #0f0f0e; }
+    h6 { color: #0f0f0e; }
+
+    .spacial-header {
+      h1, h2, h3, h4, h5, h6 {
+        color: #424741;
+      }
+    }
+
+    // Header
+    header.base-layout {
+      background: #ffffff;
+      /*url(../img/bg_layers/white_header.png) 50% 0 repeat*/
+
+      // Logo
+      .logo {
+        .slogan {
+          color: #0f0f0e;
+        }
+      }
+
+      // Site nav
+      .site-nav {
+        .item {
+          color: #0f0f0e;
+        }
+      }
+    }
+
+    // Benefits
+    .benefits {
+      h3, h4 {
+        color: #0f0f0e;
+      }
+      .post-excerpt {
+        color: #424741;
+      }
+    }
+
+    // Pricing table
+    .pricing-table {
+      .pricetable-inner {
+        .pricetable-column {
+          .pricetable-column-inner {
+            .table-head {
+              .pricetable-name {}
+              .price {
+                .holder {
+                  span {
+                    &.after {
+                      color: #424741;
+                    }
+                  }
+                }
+              }
+            }
+            .pricing_table_price_shadow {}
+            .features {
+              .details {}
+              .pricetable-feature {
+                span {
+                  &.sub {}
+                }
+              }
+              .pricetable-first, li.pricetable-button-container {}
+            }
+            .pricetable-button-container {}
+            .pricetable-button {}
+          }
+
+          &.pricetable-featured {
+            .pricetable-column-inner {
+              .table-head .pricetable-name {}
+              .features {
+                .pricetable-feature {
+                  background: fade(#d44034, 42%);
+
+                  span {
+                    color: #0f0f0e;
+                  }
+                }
+              } 
+              .pricetable-button {}
+            }
+          }
+        }
+      }
+
+      &.separated {
+        .pricetable-inner {
+          .pricetable-column {
+            .pricetable-column-inner {}
+          }
+        }
+      }
+    }
+    .text-columns {
+      .article {
+        .article-header {
+          h3 {}
+          h4 {
+            color: #0f0f0e;
+          }
+        }
+        article {
+          color: #424741;
+        }
+      }
+    }
+
+    // Steps
+    .section-steps {
+      .steps {
+        .wrapper {}
+        .inner-wrapper {}
+        .step {
+          &.first {
+            .triangle.prev {}
+            .triangle.next {}
+          }
+          &.second { .triangle.next {} }
+          &.third  { .triangle.next {} }
+          &.fourth { .triangle.next {} }
+        }
+        .triangle {
+          &.prev {}
+          &.next {}
+        }
+        .step-caption {
+          span {
+            &.count {
+              color: #ffffff;
+            }
+            &.desc {}
+          }
+        }
+      }
+    }
+
+    // Section 2
+    .main-section-2 .rumen{
+      &:before, &:after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 7px;
+        content: '';
+        background-image: url(../img/bg_layers/white_section-2-rumen.png);
+        background-repeat: repeat-x;
+      }
+      &:before {
+        background-position: 50% 0;
+        top: -7px;
+      }
+      &:after {
+        background-position: 50% -7px;
+        bottom: -7px;
+      }
+    }
+
+    // Section 1
+    .main-section-1 { 
+      background: url(../img/bg_layers/white_section-1.png) 50% 0 repeat;
+    }
+
+    // Section 2
+    .main-section-2 {
+      background: #ffffff; // url(../img/bg_layers/white_section-2.png) 50% 0 repeat;
+    }
+
+    // Section 3
+    .main-section-3 {
+      background: url(../img/bg_layers/white_section-1.png) 50% 0 repeat;
+    }
+
+    // Section 4
+    .main-section-4 {
+      background: url(../img/bg_layers/white_section-4.png) 50% 0 repeat;
+    }
+
+    // Section 5
+    .main-section-5 {
+      background: url(../img/bg_layers/white_section-1.png) 50% 0 repeat;
+    }
+
+    // Section 6
+    .main-section-6 {
+      background: url(../img/bg_layers/white_section-6.png) 50% 0 repeat;
+    }
+
+    // Section 7
+    .main-section-7 {
+      background: url(../img/bg_layers/white_section-1.png) 50% 0 repeat;
+    }
+
+    // Section 8
+    .main-section-8 {
+      background: #ffffff url(../img/bg_layers/white_section-8.png) 50% 0 repeat;
+    }
+
+    // Section 9
+    .main-section-9 {
+      background: url(../img/bg_layers/white_section-6.png) 50% 0 repeat;
+    }
+
+    // Section 9
+    .main-section-10 {
+      background: url(../img/bg_layers/white_section-1.png) 50% 0 repeat;
+    }
+
+    // Our Services
+    .grid {
+      .content-item {
+        color: #424741;
+
+        .header {
+          color: #0f0f0e;
+
+          .marker {
+            color: #5e616d;
+          }
+        }
+      }
+    }
+
+    // Featured Products
+    .featured-products {
+
+      .content-item {
+        .header {}
+        .preview {}
+        .price {
+
+          span {}
+          .small {}
+          .big {}
+        }
+        .article {
+          color: #0f0f0e;
+        }
+      }
+    }
+
+    .display-image {
+      .inner-wrapper {}
+      .display {
+
+        .image-wrapper {}
+        img {}
+      }
+      .discription {
+        header {
+          color: #0f0f0e;
+        }
+        article {
+          color: #424741;
+        }
+      }
+
+      &.small-display {
+        .inner-wrapper {}
+        .display {
+          .image-wrapper {}
+          img {}
+        }
+        .discription {}
+      }
+      &.large-display {
+        .inner-wrapper {}
+        .display {
+          .image-wrapper {}
+          img {}
+        }
+        .discription {}
+      }
+    }
+  }
+}

@@ -1,0 +1,4742 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Startup Multi-Purpose WP Theme\n"
+"POT-Creation-Date: 2013-09-13 16:55-0000\n"
+"PO-Revision-Date: 2013-09-13 16:55-0000\n"
+"Last-Translator: Irish Miss <ask@irishmiss.com>\n"
+"Language-Team: Irish Miss\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin.php:103
+msgid "Theme Options"
+msgstr ""
+
+#: ../admin.php:111
+msgid "Thanks for Installing Price Table"
+msgstr ""
+
+#: ../admin.php:112 ../classes/option-generator.php:123
+msgid "Welcome"
+msgstr ""
+
+#: ../admin.php:233
+#, php-format
+msgid ""
+"Your PHP version is too old, please upgrade to a newer version. Your version "
+"is %s, %s requires %s<br /><a href=\"%s\">Return to theme activation &raquo</"
+"a>"
+msgstr ""
+
+#: ../admin.php:268
+#, php-format
+msgid "%1$s Error Messages"
+msgstr ""
+
+#: ../classes/icons.php:142 ../classes/skin-generator.php:123
+#, php-format
+msgid "Custom skin &quot;%1$s&quot; saved."
+msgstr ""
+
+#: ../classes/icons.php:145 ../classes/skin-generator.php:126
+#, php-format
+msgid "Style &quot;%1$s&quot; has been activated."
+msgstr ""
+
+#: ../classes/icons.php:148 ../classes/skin-generator.php:129
+msgid "Error: Custom skin not activated, please try again."
+msgstr ""
+
+#: ../classes/icons.php:151 ../classes/skin-generator.php:132
+#, php-format
+msgid ""
+"Custom skin &quot;%1$s&quot; already exists, please select a different name."
+msgstr ""
+
+#: ../classes/icons.php:154 ../classes/skin-generator.php:135
+#, php-format
+msgid "Error: Custom skin &quot;%1$s&quot; not saved, please try again."
+msgstr ""
+
+#: ../classes/icons.php:157 ../classes/skin-generator.php:138
+#, php-format
+msgid "Upload Successful. The following skin was added: %1$s"
+msgid_plural "Upload Successful. sThe following skins were added: %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/icons.php:160 ../classes/skin-generator.php:141
+msgid "Error: The skin you uploaded could not be unzipped."
+msgstr ""
+
+#: ../classes/icons.php:163 ../classes/skin-generator.php:144
+msgid "Error: No valid &quot;.css&quot; files were found."
+msgstr ""
+
+#: ../classes/icons.php:166 ../classes/skin-generator.php:147
+#, php-format
+msgid "Custom skin &quot;%1$s&quot; has been deleted."
+msgstr ""
+
+#: ../classes/icons.php:169 ../classes/skin-generator.php:150
+#, php-format
+msgid "Error: Custom skin &quot;%1$s&quot; not deleted, please try again."
+msgstr ""
+
+#: ../classes/icons.php:172 ../classes/skin-generator.php:153
+#, php-format
+msgid ""
+"Error: Custom skin &quot;%1$s&quot; is currently the active skin, please "
+"deactivate it before deleting."
+msgstr ""
+
+#: ../classes/icons.php:175 ../classes/skin-generator.php:156
+#, php-format
+msgid ""
+"There was an error loading the following skin &quot;%1$s&quot;, please make "
+"sure the following folder is writable by your server: &quot;%2$s&quot;"
+msgstr ""
+
+#: ../classes/icons.php:178 ../classes/skin-generator.php:159
+#, php-format
+msgid ""
+"Error: The skin &quot;%1$s&quot; could not be exported, please make sure the "
+"following folder is writable by your server: &quot;%2$s&quot;"
+msgstr ""
+
+#: ../classes/icons.php:181 ../classes/skin-generator.php:162
+#, php-format
+msgid ""
+"Error: The skin &quot;%1$s&quot; could not be exported, please try again."
+msgstr ""
+
+#: ../classes/icons.php:184 ../classes/skin-generator.php:165
+#, php-format
+msgid ""
+"The following image could not be add to your export, it will have to be "
+"added to your skin manually: %1$s"
+msgid_plural ""
+"The following images could not be add to your export, they will have to be "
+"added to your skin manually: %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/icons.php:187 ../classes/skin-generator.php:168
+#, php-format
+msgid ""
+"Error: The skin %1$s could not be uploaded, unzip it manually and upload it "
+"to the following directory on your server: %2$s"
+msgstr ""
+
+#: ../classes/icons.php:190 ../classes/skin-generator.php:171
+#, php-format
+msgid "The skin %1$s already exists."
+msgstr ""
+
+#: ../classes/icons.php:193 ../classes/skin-generator.php:174
+msgid "Error: File has an invalid extension, it should be .zip"
+msgstr ""
+
+#: ../classes/option-generator.php:41
+msgid "v"
+msgstr ""
+
+#: ../classes/option-generator.php:41
+msgid "Theme Documentation"
+msgstr ""
+
+#: ../classes/option-generator.php:46
+msgid "Download"
+msgstr ""
+
+#: ../classes/option-generator.php:46 ../classes/option-generator.php:1347
+#: ../classes/option-generator.php:1483 ../classes/option-generator.php:1593
+#: ../classes/option-generator.php:1694 ../classes/option-generator.php:1804
+#: ../classes/option-generator.php:1908 ../classes/option-generator.php:1987
+#: ../functions/media-upload.php:44
+msgid "Cancel"
+msgstr ""
+
+#: ../classes/option-generator.php:46
+msgid "Downloading..."
+msgstr ""
+
+#: ../classes/option-generator.php:46
+msgid "View on ThemeForest"
+msgstr ""
+
+#: ../classes/option-generator.php:46
+msgid "Enter Purchase Code"
+msgstr ""
+
+#: ../classes/option-generator.php:46
+#, php-format
+msgid "Download New Version %1$s"
+msgstr ""
+
+#: ../classes/option-generator.php:86
+msgid "All Options Restored To Default."
+msgstr ""
+
+#: ../classes/option-generator.php:88
+msgid "Settings Saved."
+msgstr ""
+
+#: ../classes/option-generator.php:90
+msgid "Options has been imported successful."
+msgstr ""
+
+#: ../classes/option-generator.php:92
+msgid "An error occurred importing your options, please try again."
+msgstr ""
+
+#: ../classes/option-generator.php:135 ../options/lib/general.inc.php:6
+msgid "General"
+msgstr ""
+
+#: ../classes/option-generator.php:135
+msgid "Settings"
+msgstr ""
+
+#: ../classes/option-generator.php:250
+msgid "Caption field"
+msgstr ""
+
+#: ../classes/option-generator.php:256
+msgid "Text field"
+msgstr ""
+
+#: ../classes/option-generator.php:262
+msgid "Button Title"
+msgstr ""
+
+#: ../classes/option-generator.php:265
+msgid "Button Address URL"
+msgstr ""
+
+#: ../classes/option-generator.php:268
+msgid "Button Style"
+msgstr ""
+
+#: ../classes/option-generator.php:458 ../classes/option-generator.php:512
+#: ../classes/option-generator.php:525 ../classes/option-generator.php:922
+msgid "Choose one..."
+msgstr ""
+
+#: ../classes/option-generator.php:680
+msgid "Width"
+msgstr ""
+
+#: ../classes/option-generator.php:687 ../classes/skin-generator.php:758
+#: ../meta/meta-page.php:255
+msgid "Height"
+msgstr ""
+
+#: ../classes/option-generator.php:823 ../classes/option-generator.php:838
+msgid "Email"
+msgstr ""
+
+#: ../classes/option-generator.php:824
+msgid ""
+"Input the email address that you wish to be used when the form is submitted."
+msgstr ""
+
+#: ../classes/option-generator.php:833
+msgid "Name"
+msgstr ""
+
+#: ../classes/option-generator.php:834
+msgid "Adds a textfield that is used as the name of the sender."
+msgstr ""
+
+#: ../classes/option-generator.php:839
+msgid ""
+"Adds a textfield that is used as the email of the sender. This field will be "
+"validated for a correct email."
+msgstr ""
+
+#: ../classes/option-generator.php:843
+msgid "Textfield"
+msgstr ""
+
+#: ../classes/option-generator.php:844
+msgid "Adds a basic textfield which can be used for anything."
+msgstr ""
+
+#: ../classes/option-generator.php:848
+msgid "Textarea"
+msgstr ""
+
+#: ../classes/option-generator.php:849
+msgid ""
+"Adds a basic textarea which can be used for anything. This is usually used "
+"as the \"Message\" section of a form."
+msgstr ""
+
+#: ../classes/option-generator.php:853
+msgid "Checkbox"
+msgstr ""
+
+#: ../classes/option-generator.php:854
+msgid ""
+"Adds a checkbox to your form. The checkbox can be used for anything and the "
+"value will be displayed in your email."
+msgstr ""
+
+#: ../classes/option-generator.php:858
+msgid "Radio"
+msgstr ""
+
+#: ../classes/option-generator.php:859
+msgid ""
+"Adds radio buttons to your form. You will need to separate your values with "
+"a comma.<br /><br />For example if you wanted to offer the choice of male or "
+"female then you would enter the value like this: \"male, female\"."
+msgstr ""
+
+#: ../classes/option-generator.php:863
+msgid "Select"
+msgstr ""
+
+#: ../classes/option-generator.php:864
+msgid ""
+"Adds a select box to your form. You will need to separate your values with a "
+"comma.<br /><br />For example if you wanted to offer the choice of male or "
+"female then you would enter the value like this: \"male, female\"."
+msgstr ""
+
+#: ../classes/option-generator.php:868
+msgid "Submit"
+msgstr ""
+
+#: ../classes/option-generator.php:869
+msgid ""
+"By default the submit button will be displayed as \"Submit\". If you wish to "
+"change the text then you can add this to the form with a custom value."
+msgstr ""
+
+#: ../classes/option-generator.php:873
+msgid "Autoresponder"
+msgstr ""
+
+#: ../classes/option-generator.php:874
+msgid ""
+"Allows you to setup an automated response after the form is submitted. You "
+"can use the tags by typing them out like so, %name%, %email%, etc etc."
+msgstr ""
+
+#: ../classes/option-generator.php:880
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../classes/option-generator.php:886
+msgid "Subject"
+msgstr ""
+
+#: ../classes/option-generator.php:887
+msgid ""
+"You can place a custom subject line here. This is the subject that you will "
+"see in your emails."
+msgstr ""
+
+#: ../classes/option-generator.php:896
+msgid "Success Message"
+msgstr ""
+
+#: ../classes/option-generator.php:897
+msgid ""
+"When the form is submitted successfully this message will be displayed to "
+"the user.  Common examples would be, \"Thanks you\" or something similar."
+msgstr ""
+
+#: ../classes/option-generator.php:906
+msgid "Spam Protection"
+msgstr ""
+
+#: ../classes/option-generator.php:919
+msgid "Add Form Field"
+msgstr ""
+
+#: ../classes/option-generator.php:928
+msgid "Add Field &raquo;"
+msgstr ""
+
+#: ../classes/option-generator.php:929
+msgid ""
+"You can add fields to display with your form.  When the form is submitted "
+"these fields will display in your email."
+msgstr ""
+
+#: ../classes/option-generator.php:939
+msgid "Form Label:"
+msgstr ""
+
+#: ../classes/option-generator.php:943
+msgid "Form Value:"
+msgstr ""
+
+#: ../classes/option-generator.php:947
+msgid "Require Field:"
+msgstr ""
+
+#: ../classes/option-generator.php:951
+msgid "From Name:"
+msgstr ""
+
+#: ../classes/option-generator.php:953
+msgid "From Email:"
+msgstr ""
+
+#: ../classes/option-generator.php:955
+msgid "Subject:"
+msgstr ""
+
+#: ../classes/option-generator.php:958
+msgid "Available Tags:"
+msgstr ""
+
+#: ../classes/option-generator.php:959
+msgid "Message:"
+msgstr ""
+
+#: ../classes/option-generator.php:963 ../classes/option-generator.php:1346
+#: ../classes/option-generator.php:1482 ../classes/option-generator.php:1592
+#: ../classes/option-generator.php:1693 ../classes/option-generator.php:1803
+#: ../classes/option-generator.php:1907 ../classes/option-generator.php:1986
+msgid "Remove"
+msgstr ""
+
+#: ../classes/option-generator.php:985
+msgid "Add Sidebar"
+msgstr ""
+
+#: ../classes/option-generator.php:1002 ../classes/option-generator.php:1018
+#: ../classes/skin-generator.php:537 ../functions/media-upload.php:41
+msgid "Delete"
+msgstr ""
+
+#: ../classes/option-generator.php:1047 ../classes/option-generator.php:1382
+msgid "Add New Slider"
+msgstr ""
+
+#: ../classes/option-generator.php:1089 ../classes/option-generator.php:1411
+#, php-format
+msgid "Slideshow %1$s"
+msgstr ""
+
+#: ../classes/option-generator.php:1095 ../classes/option-generator.php:1413
+#: ../classes/option-generator.php:1563 ../classes/option-generator.php:1669
+#: ../classes/option-generator.php:1970
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../classes/option-generator.php:1196
+msgid "Select Element Type"
+msgstr ""
+
+#: ../classes/option-generator.php:1209
+msgid "Element Position"
+msgstr ""
+
+#: ../classes/option-generator.php:1222
+msgid "Element Effect"
+msgstr ""
+
+#: ../classes/option-generator.php:1244
+msgid "Top offset"
+msgstr ""
+
+#: ../classes/option-generator.php:1250
+msgid "Left offset"
+msgstr ""
+
+#: ../classes/option-generator.php:1256
+msgid "Text Color"
+msgstr ""
+
+#: ../classes/option-generator.php:1273 ../classes/option-generator.php:1422
+msgid "Image/Video URL"
+msgstr ""
+
+#: ../classes/option-generator.php:1279 ../classes/option-generator.php:1430
+msgid "Slide Source"
+msgstr ""
+
+#: ../classes/option-generator.php:1299 ../classes/option-generator.php:1440
+msgid "Image Alt Attribute"
+msgstr ""
+
+#: ../classes/option-generator.php:1305 ../classes/option-generator.php:1446
+msgid "Link URL"
+msgstr ""
+
+#: ../classes/option-generator.php:1311 ../classes/option-generator.php:1452
+#: ../meta/meta-page.php:381 ../options/lib/partners.inc.php:29
+msgid "Title"
+msgstr ""
+
+#: ../classes/option-generator.php:1318
+msgid "Enable autoplay"
+msgstr ""
+
+#: ../classes/option-generator.php:1322 ../classes/option-generator.php:1458
+#: ../meta/meta-post-slideshow.php:19
+msgid "Stage Effect"
+msgstr ""
+
+#: ../classes/option-generator.php:1336 ../classes/option-generator.php:1472
+msgid "Disable \"Read More\" Button"
+msgstr ""
+
+#: ../classes/option-generator.php:1339
+msgid "Slider Text"
+msgstr ""
+
+#: ../classes/option-generator.php:1475
+msgid "Description"
+msgstr ""
+
+#: ../classes/option-generator.php:1526
+msgid "Add New Sociable"
+msgstr ""
+
+#: ../classes/option-generator.php:1561
+#, php-format
+msgid "Sociable %1$s"
+msgstr ""
+
+#: ../classes/option-generator.php:1572
+msgid "Sociable Icon"
+msgstr ""
+
+#: ../classes/option-generator.php:1585
+msgid "Sociable Link"
+msgstr ""
+
+#: ../classes/option-generator.php:1631
+msgid "Add New Partner"
+msgstr ""
+
+#: ../classes/option-generator.php:1667
+#, php-format
+msgid "Partner %1$s"
+msgstr ""
+
+#: ../classes/option-generator.php:1679
+msgid "Partner Logo"
+msgstr ""
+
+#: ../classes/option-generator.php:1686
+msgid "Partner Link"
+msgstr ""
+
+#: ../classes/option-generator.php:1735
+msgid "Add New Font"
+msgstr ""
+
+#: ../classes/option-generator.php:1774
+#, php-format
+msgid "Google Web Font %1$s"
+msgstr ""
+
+#: ../classes/option-generator.php:1776
+msgid "Change Font"
+msgstr ""
+
+#: ../classes/option-generator.php:1785
+msgid "Font-Face"
+msgstr ""
+
+#: ../classes/option-generator.php:1848
+msgid "Add New Language"
+msgstr ""
+
+#: ../classes/option-generator.php:1883
+#, php-format
+msgid "Language %1$s"
+msgstr ""
+
+#: ../classes/option-generator.php:1885
+msgid "Edit Item"
+msgstr ""
+
+#: ../classes/option-generator.php:1894
+msgid "Language Name"
+msgstr ""
+
+#: ../classes/option-generator.php:1900
+msgid "Language Link"
+msgstr ""
+
+#: ../classes/option-generator.php:1943
+msgid "Add New Criteria"
+msgstr ""
+
+#: ../classes/option-generator.php:1968
+#, php-format
+msgid "Criteria %1$s"
+msgstr ""
+
+#: ../classes/option-generator.php:1979
+msgid "Criteria Name"
+msgstr ""
+
+#: ../classes/option-generator.php:2074
+msgid "Start Colour"
+msgstr ""
+
+#: ../classes/option-generator.php:2078
+msgid "End Colour"
+msgstr ""
+
+#: ../classes/option-generator.php:2085
+msgid "Start Location %"
+msgstr ""
+
+#: ../classes/option-generator.php:2099
+msgid "End Location %"
+msgstr ""
+
+#: ../classes/option-generator.php:2114
+msgid "Orientation"
+msgstr ""
+
+#: ../classes/option-generator.php:2159
+msgid "Shadow Colour"
+msgstr ""
+
+#: ../classes/option-generator.php:2163
+msgid "Blur"
+msgstr ""
+
+#: ../classes/option-generator.php:2174
+msgid "Vertical Offset"
+msgstr ""
+
+#: ../classes/option-generator.php:2183
+msgid "Horizontal Offset"
+msgstr ""
+
+#: ../classes/option-generator.php:2193
+msgid "Inset"
+msgstr ""
+
+#: ../classes/option-generator.php:2526
+msgid "Search Icon"
+msgstr ""
+
+#: ../classes/option-generator.php:2527
+msgid "Start typing to find required icons."
+msgstr ""
+
+#: ../classes/option-generator.php:2529
+msgid "Search an icon"
+msgstr ""
+
+#: ../classes/option-generator.php:2533
+msgid "Select one icon from a list and click on it."
+msgstr ""
+
+#: ../classes/option-generator.php:2534
+msgid "Show Icons"
+msgstr ""
+
+#: ../classes/option-generator.php:2570
+msgid "font-color"
+msgstr ""
+
+#: ../classes/option-generator.php:2740
+msgid "No repeat"
+msgstr ""
+
+#: ../classes/option-generator.php:2741
+msgid "Repeat"
+msgstr ""
+
+#: ../classes/option-generator.php:2742
+msgid "Repeat Horizontaly"
+msgstr ""
+
+#: ../classes/option-generator.php:2743
+msgid "Repeat Verticaly"
+msgstr ""
+
+#: ../classes/option-generator.php:2770
+msgid "Scroll"
+msgstr ""
+
+#: ../classes/option-generator.php:2771
+msgid "Fixed"
+msgstr ""
+
+#: ../classes/plugins.php:166
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../classes/plugins.php:167
+msgid "Install Plugins"
+msgstr ""
+
+#: ../classes/plugins.php:168
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../classes/plugins.php:169
+msgid "Something went wrong."
+msgstr ""
+
+#: ../classes/plugins.php:180 ../classes/plugins.php:492
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../classes/plugins.php:181 ../classes/plugins.php:1848
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../classes/plugins.php:182
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../classes/plugins.php:519 ../classes/plugins.php:2060
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../classes/plugins.php:547
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../classes/plugins.php:706
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../classes/plugins.php:1093
+msgid "External Link"
+msgstr ""
+
+#: ../classes/plugins.php:1098
+msgid "Private Repository"
+msgstr ""
+
+#: ../classes/plugins.php:1101
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../classes/plugins.php:1105
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../classes/plugins.php:1108
+msgid "Required"
+msgstr ""
+
+#: ../classes/plugins.php:1108
+msgid "Recommended"
+msgstr ""
+
+#: ../classes/plugins.php:1111
+msgid "Not Installed"
+msgstr ""
+
+#: ../classes/plugins.php:1113
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../classes/plugins.php:1283
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../classes/plugins.php:1299
+msgid "Plugin"
+msgstr ""
+
+#: ../classes/plugins.php:1300
+msgid "Source"
+msgstr ""
+
+#: ../classes/plugins.php:1301
+msgid "Type"
+msgstr ""
+
+#: ../classes/plugins.php:1302
+msgid "Status"
+msgstr ""
+
+#: ../classes/plugins.php:1320
+msgid "Install"
+msgstr ""
+
+#: ../classes/plugins.php:1321
+msgid "Activate"
+msgstr ""
+
+#: ../classes/plugins.php:1546
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/plugins.php:1831
+msgid "Install package not available."
+msgstr ""
+
+#: ../classes/plugins.php:1832
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../classes/plugins.php:1833
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../classes/plugins.php:1834
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../classes/plugins.php:1835
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../classes/plugins.php:1836
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../classes/plugins.php:1847
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../classes/plugins.php:1957
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../classes/plugins.php:1958
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../classes/plugins.php:1958 ../classes/plugins.php:1967
+msgid "Show Details"
+msgstr ""
+
+#: ../classes/plugins.php:1958 ../classes/plugins.php:1967
+msgid "Hide Details"
+msgstr ""
+
+#: ../classes/plugins.php:1959
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../classes/plugins.php:1960
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../classes/plugins.php:1964
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../classes/plugins.php:1965
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../classes/plugins.php:1966
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../classes/plugins.php:1967
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../classes/plugins.php:1968
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../classes/plugins.php:1969
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../classes/shortcode-generator.php:26
+#, php-format
+msgid "%1$s Shortcode Generator"
+msgstr ""
+
+#: ../classes/shortcode-generator.php:38
+msgid "Shortcode"
+msgstr ""
+
+#: ../classes/skin-generator.php:534
+msgid "Edit"
+msgstr ""
+
+#: ../classes/skin-generator.php:535
+msgid "Export"
+msgstr ""
+
+#: ../classes/skin-generator.php:536
+msgid "Advanced"
+msgstr ""
+
+#: ../classes/skin-generator.php:615 ../classes/skin-generator.php:1665
+msgid "Return to Skin Manager"
+msgstr ""
+
+#: ../classes/skin-generator.php:630 ../classes/skin-generator.php:1718
+msgid "Save As New Skin"
+msgstr ""
+
+#: ../classes/skin-generator.php:632 ../classes/skin-generator.php:1706
+#: ../classes/skin-generator.php:1719
+msgid "Save Skin"
+msgstr ""
+
+#: ../classes/skin-generator.php:634 ../classes/skin-generator.php:1720
+msgid "Cancel Edit"
+msgstr ""
+
+#: ../classes/skin-generator.php:666
+msgid "Default Font Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:670
+msgid "Default Font Family"
+msgstr ""
+
+#: ../classes/skin-generator.php:674
+msgid "Default Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:678
+msgid "Default Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:682 ../classes/skin-generator.php:778
+#: ../classes/skin-generator.php:809 ../meta/meta-page.php:171
+#: ../meta/meta-page.php:723
+msgid "Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:686 ../classes/skin-generator.php:782
+#: ../classes/skin-generator.php:813 ../classes/skin-generator.php:849
+#: ../classes/skin-generator.php:1307 ../classes/skin-generator.php:1374
+#: ../meta/meta-page.php:164 ../meta/meta-page.php:731
+msgid "Background Image"
+msgstr ""
+
+#: ../classes/skin-generator.php:690 ../classes/skin-generator.php:786
+#: ../classes/skin-generator.php:817 ../classes/skin-generator.php:853
+#: ../classes/skin-generator.php:1311 ../classes/skin-generator.php:1378
+msgid "Background Repeat"
+msgstr ""
+
+#: ../classes/skin-generator.php:694 ../classes/skin-generator.php:790
+#: ../classes/skin-generator.php:821 ../classes/skin-generator.php:857
+#: ../classes/skin-generator.php:1315 ../classes/skin-generator.php:1382
+msgid "Background Attachment"
+msgstr ""
+
+#: ../classes/skin-generator.php:698 ../classes/skin-generator.php:794
+#: ../classes/skin-generator.php:825 ../classes/skin-generator.php:861
+#: ../classes/skin-generator.php:1319 ../classes/skin-generator.php:1386
+msgid "Background Position"
+msgstr ""
+
+#: ../classes/skin-generator.php:702
+msgid "Default Border Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:706
+msgid "Default Line Height"
+msgstr ""
+
+#: ../classes/skin-generator.php:710
+msgid "Global Link Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:714
+msgid "Global Link Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:718
+msgid "Global Icon Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:722
+msgid "Comment By Author Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:732
+msgid "Box Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:736
+msgid "Box Background Image"
+msgstr ""
+
+#: ../classes/skin-generator.php:740
+msgid "Box Background Repeat"
+msgstr ""
+
+#: ../classes/skin-generator.php:744
+msgid "Box Background Attachment"
+msgstr ""
+
+#: ../classes/skin-generator.php:748
+msgid "Box Background Position"
+msgstr ""
+
+#: ../classes/skin-generator.php:762
+msgid "Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:766 ../classes/skin-generator.php:1121
+msgid "Text Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:770 ../classes/skin-generator.php:1125
+msgid "Link Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:774
+msgid "Link Hover Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:798 ../classes/skin-generator.php:829
+msgid "Header Gradient"
+msgstr ""
+
+#: ../classes/skin-generator.php:833
+msgid "Header Elements Font Family"
+msgstr ""
+
+#: ../classes/skin-generator.php:844
+msgid "Primary Menu Gradient"
+msgstr ""
+
+#: ../classes/skin-generator.php:865
+msgid "Main Menu Item BG Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:869
+msgid "Main Menu Item BG Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:873
+msgid "Main Menu Text Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:877
+msgid "Main Menu Text Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:881
+msgid "Main Menu Icon Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:885
+msgid "Main Menu Icon Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:889
+msgid "Main Menu Font Family"
+msgstr ""
+
+#: ../classes/skin-generator.php:893
+msgid "Main Menu Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:897
+msgid "Main Menu Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:901
+msgid "Main Menu Dropdown Elements Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:905
+msgid "Main Menu Dropdown Border Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:909
+msgid "Main Menu Dropdown Item Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:913
+msgid "Main menu Dropdown Item Background Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:917
+msgid "Main Menu Dropdown Item Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:921
+msgid "Main menu Dropdown Item Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:932
+msgid "Sections Gradient"
+msgstr ""
+
+#: ../classes/skin-generator.php:936
+msgid "Breadcrumbs Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:940
+msgid "Breadcrumbs Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:944 ../classes/skin-generator.php:1102
+#: ../meta/meta-page.php:181 ../meta/meta-page.php:690
+msgid "Caption Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:948 ../classes/skin-generator.php:1106
+#: ../meta/meta-page.php:189 ../meta/meta-page.php:698
+msgid "Caption Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:952
+msgid "Caption Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:956
+msgid "Caption Tagline Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:960
+msgid "Caption Tagline Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:964
+msgid "Caption Tagline Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:968
+msgid "Alt Caption Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:972
+msgid "Alt Text Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:983
+msgid "Button #1 Gradient Background"
+msgstr ""
+
+#: ../classes/skin-generator.php:987
+msgid "Button #1 Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:991
+msgid "Button #1 Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:997
+msgid "Button #2 Gradient Background"
+msgstr ""
+
+#: ../classes/skin-generator.php:1001
+msgid "Button #2 Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1005
+msgid "Button #2 Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1015
+msgid "Tab Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1019
+msgid "Active Tab Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1023
+msgid "Tab Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1027
+msgid "Tab Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1038 ../classes/skin-generator.php:1042
+#: ../classes/skin-generator.php:1053
+msgid "Tab Gradient Background"
+msgstr ""
+
+#: ../classes/skin-generator.php:1057
+msgid "Active Tab Gradient Background"
+msgstr ""
+
+#: ../classes/skin-generator.php:1068
+msgid "Toggle Background"
+msgstr ""
+
+#: ../classes/skin-generator.php:1072
+msgid "Toggle Caption Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1076
+msgid "Toggle Caption Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:1087
+msgid "Colour Frame Gradient"
+msgstr ""
+
+#: ../classes/skin-generator.php:1091
+msgid "Color Frame Wrap Background"
+msgstr ""
+
+#: ../classes/skin-generator.php:1110
+msgid "Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1129
+msgid "Active Link Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1133
+msgid "Link Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1137
+msgid "Link Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1141
+msgid "Bullet Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1152
+msgid "Preview Info Wrap Gradient"
+msgstr ""
+
+#: ../classes/skin-generator.php:1156
+msgid "Preview Info Wrap Icon Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1160
+msgid "Preview Info Wrap Icon Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1171
+msgid "Font Family"
+msgstr ""
+
+#: ../classes/skin-generator.php:1175
+msgid "H1 Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1179
+msgid "H2 Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1183
+msgid "H3 Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1187
+msgid "H4 Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1191
+msgid "H5 Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1195
+msgid "H6 Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1206
+msgid "Shortcodes Grid Title Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1210
+msgid "Shortcodes Grid Title Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1214
+msgid "Post More Link Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1218
+msgid "Post More Link Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:1230
+msgid "Field Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1234
+msgid "Field Text Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1245
+msgid "Boxed Date First Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1249
+msgid "Boxed Date Second Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1253
+msgid "Boxed Date Day Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1257
+msgid "Footer Boxed Date First Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1261
+msgid "Footer Boxed Date Second Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1265
+msgid "Footer Boxed Date Day Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1276
+msgid "Pager Gradient"
+msgstr ""
+
+#: ../classes/skin-generator.php:1280
+msgid "Pager Gradient Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:1284
+msgid "Meta Tags Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1288
+msgid "Meta Tags Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:1292
+msgid "Pager Shadow"
+msgstr ""
+
+#: ../classes/skin-generator.php:1303
+msgid "Before Footer Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1323
+msgid "Before Footer Caption Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1327
+msgid "Before Footer Tagline Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1331
+msgid "Before Footer Caption Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1335
+msgid "Before Footer Caption Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1339
+msgid "Before Footer Text Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1343
+msgid "Before Footer Text Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1347
+msgid "Before Footer Link Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1351
+msgid "Before Footer Link Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:1355
+msgid "Before Footer Icon Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1359
+msgid "Before Footer Icon Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:1370
+msgid "Footer Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1390
+msgid "Footer Text Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1394
+msgid "Footer Link Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1398
+msgid "Footer Link Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:1402
+msgid "Footer Icon Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1406
+msgid "Footer Icon Colour Hover"
+msgstr ""
+
+#: ../classes/skin-generator.php:1417
+msgid "On-Sale Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1421
+msgid "On-Sale Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1425
+msgid "On-Sale Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1429
+msgid "On-Sale Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1433
+msgid "Product Title Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1437
+msgid "Product Title Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1441
+msgid "Product Title Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1445
+msgid "Product Price Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1449
+msgid "Product Price Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1453
+msgid "Product Price Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1457
+msgid "Product Old Price Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1461
+msgid "Product Old Price Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1465
+msgid "Product Old Price Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1469
+msgid "Product add To Cart Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1473
+msgid "Product add To Cart Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1477
+msgid "Table Header Gradient"
+msgstr ""
+
+#: ../classes/skin-generator.php:1481
+msgid "Table Header Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1485
+msgid "Table Header Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1489
+msgid "Table Header Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1493
+msgid "Table Odd Row Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1497
+msgid "Table Even Row Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1501
+msgid "Table Cell Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1505
+msgid "Table Cell Font Size"
+msgstr ""
+
+#: ../classes/skin-generator.php:1509
+msgid "Table Cell Font Weight"
+msgstr ""
+
+#: ../classes/skin-generator.php:1513
+msgid "Payment Background Colour"
+msgstr ""
+
+#: ../classes/skin-generator.php:1523 ../classes/skin-generator.php:1571
+msgid "Save Style"
+msgstr ""
+
+#: ../classes/skin-generator.php:1524 ../classes/skin-generator.php:1572
+msgid "Reset Style"
+msgstr ""
+
+#: ../classes/skin-generator.php:1533 ../classes/skin-generator.php:1540
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../classes/skin-generator.php:1578
+msgid "Developers Property List"
+msgstr ""
+
+#: ../classes/skin-generator.php:1581
+msgid "Key"
+msgstr ""
+
+#: ../classes/skin-generator.php:1581
+msgid "Value"
+msgstr ""
+
+#: ../classes/skin-generator.php:1602
+msgid "Unable to loade CSS model. Please reinstall theme."
+msgstr ""
+
+#: ../classes/skin-generator.php:1700
+msgid "Save Skin As"
+msgstr ""
+
+#: ../functions/core.php:68
+#, php-format
+msgid "Error: Sidebar &quot;%1$s&quot; not deleted, please try again."
+msgstr ""
+
+#: ../functions/core.php:73
+#, php-format
+msgid "Sidebar &quot;%1$s&quot; Deleted."
+msgstr ""
+
+#: ../functions/core.php:93
+#, php-format
+msgid "Error: Sidebar &quot;%1$s&quot; not saved, please try again."
+msgstr ""
+
+#: ../functions/core.php:99 ../functions/core.php:111
+#, php-format
+msgid "Sidebar &quot;%1$s&quot; Added."
+msgstr ""
+
+#: ../functions/core.php:104
+#, php-format
+msgid "Sidebar &quot;%1$s&quot; Already Exists."
+msgstr ""
+
+#: ../functions/core.php:134
+msgid "Error: Options not saved, please try again."
+msgstr ""
+
+#: ../functions/core.php:139 ../functions/core.php:142
+msgid "Options Saved."
+msgstr ""
+
+#: ../functions/core.php:262
+msgid "Without Slider"
+msgstr ""
+
+#: ../functions/core.php:263 ../options/lib/store.inc.php:35
+msgid "Layer Slider"
+msgstr ""
+
+#: ../functions/core.php:264
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../functions/core.php:265
+msgid "Recent Posts Grid (Expose)"
+msgstr ""
+
+#: ../functions/core.php:266
+msgid "Road Map"
+msgstr ""
+
+#: ../functions/core.php:267
+msgid "Banner"
+msgstr ""
+
+#: ../functions/core.php:290
+msgid "Untitled"
+msgstr ""
+
+#: ../functions/core.php:297
+msgid "Please install LayerSlider WP"
+msgstr ""
+
+#: ../functions/core.php:327
+msgid "Please install Slider Revolution Plugin"
+msgstr ""
+
+#: ../functions/core.php:404
+msgid "Core Fonts"
+msgstr ""
+
+#: ../functions/core.php:407
+msgid "System Fonts"
+msgstr ""
+
+#: ../functions/core.php:424 ../options/lib/skins.inc.php:23
+msgid "Google Web Fonts"
+msgstr ""
+
+#: ../functions/media-upload.php:39
+msgid "Delete Permanently"
+msgstr ""
+
+#: ../functions/media-upload.php:42
+#, php-format
+msgid "You are about to delete <strong>%s</strong>."
+msgstr ""
+
+#: ../functions/media-upload.php:43
+msgid "Continue"
+msgstr ""
+
+#: ../functions/media-upload.php:47
+msgid "Move to Trash"
+msgstr ""
+
+#: ../functions/media-upload.php:48
+msgid "Undo"
+msgstr ""
+
+#: ../functions/scripts.php:68
+msgid "This will restore all of your options to default. Are you sure?"
+msgstr ""
+
+#: ../functions/scripts.php:69
+msgid "Please enter a name for your sidebar."
+msgstr ""
+
+#: ../functions/scripts.php:70
+msgid "Are you sure you want to delete this sidebar?"
+msgstr ""
+
+#: ../functions/scripts.php:71
+msgid ""
+"Please enter a name for your custom stylesheet in the &quot;Save Skin "
+"As&quot; field."
+msgstr ""
+
+#: ../functions/scripts.php:72
+msgid "Are you sure you want to overwrite this stylesheet?"
+msgstr ""
+
+#: ../functions/scripts.php:73
+msgid "Are you sure you want to delete this skin?"
+msgstr ""
+
+#: ../functions/scripts.php:74
+msgid "Uploading.."
+msgstr ""
+
+#: ../functions/scripts.php:75
+msgid "Unziping.."
+msgstr ""
+
+#: ../functions/scripts.php:76
+#, php-format
+msgid "%1$s has invalid extension. Only %2$s are allowed."
+msgstr ""
+
+#: ../functions/scripts.php:96
+msgid "Are you sure you want to delete this column?"
+msgstr ""
+
+#: ../functions/scripts.php:97
+msgid "Are you sure you want to delete this feature?"
+msgstr ""
+
+#: ../meta/meta-defaults.php:4 ../meta/meta-layout.php:4
+#, php-format
+msgid "%1$s Page Layout"
+msgstr ""
+
+#: ../meta/meta-defaults.php:12 ../meta/meta-layout.php:12
+msgid "Layout"
+msgstr ""
+
+#: ../meta/meta-defaults.php:13 ../meta/meta-layout.php:13
+msgid ""
+"You can choose between a left, right, or no sidebar layout for your page."
+msgstr ""
+
+#: ../meta/meta-defaults.php:26
+msgid "Page Tagline"
+msgstr ""
+
+#: ../meta/meta-defaults.php:27
+msgid "Tagline appears right after page title."
+msgstr ""
+
+#: ../meta/meta-defaults.php:30
+msgid "Alternative page title."
+msgstr ""
+
+#: ../meta/meta-defaults.php:35
+msgid "Disable Page H1 title"
+msgstr ""
+
+#: ../meta/meta-defaults.php:36
+msgid "This option may disable H1 page caption tag."
+msgstr ""
+
+#: ../meta/meta-defaults.php:39
+msgid "Disable page H1 title on this page"
+msgstr ""
+
+#: ../meta/meta-defaults.php:43 ../meta/meta-layout.php:31
+msgid "Disable Breadcrumbs"
+msgstr ""
+
+#: ../meta/meta-defaults.php:44
+msgid "With this option you can remove breadcrumbs from page."
+msgstr ""
+
+#: ../meta/meta-defaults.php:47
+msgid "Disable breadcrumbs on this page"
+msgstr ""
+
+#: ../meta/meta-defaults.php:51 ../meta/meta-defaults.php:55
+msgid "Remove caption margin"
+msgstr ""
+
+#: ../meta/meta-defaults.php:52
+msgid "This option may remove page caption bottom margin."
+msgstr ""
+
+#: ../meta/meta-defaults.php:59 ../meta/meta-layout.php:24
+#: ../meta/meta-service.php:33
+msgid "Custom Sidebar"
+msgstr ""
+
+#: ../meta/meta-defaults.php:60 ../meta/meta-layout.php:25
+#: ../meta/meta-service.php:34
+msgid ""
+"Select the custom sidebar that you'd like to be displayed on this page.<br /"
+"><br />Note:  You will need to first create a custom sidebar under the &quot;"
+"Sidebar&quot; tab in your theme's option panel before it will show up here."
+msgstr ""
+
+#: ../meta/meta-gallery.php:3
+#, php-format
+msgid "%1$s Gallery Page Options"
+msgstr ""
+
+#: ../meta/meta-gallery.php:16
+msgid "Enter customer brand / company name"
+msgstr ""
+
+#: ../meta/meta-gallery.php:22
+msgid "Enter project experience or skills"
+msgstr ""
+
+#: ../meta/meta-gallery.php:28
+msgid "Enter project link"
+msgstr ""
+
+#: ../meta/meta-gallery.php:34
+msgid "Enter custom description"
+msgstr ""
+
+#: ../meta/meta-gallery.php:38
+msgid "Placeholder Background"
+msgstr ""
+
+#: ../meta/meta-gallery.php:44
+msgid "Placeholder Colour"
+msgstr ""
+
+#: ../meta/meta-gallery.php:51
+msgid "Placeholder Height"
+msgstr ""
+
+#: ../meta/meta-gallery.php:62
+msgid "Placeholder Border Radius"
+msgstr ""
+
+#: ../meta/meta-gallery.php:72
+msgid "Placeholder Arrow Size"
+msgstr ""
+
+#: ../meta/meta-gallery.php:83
+msgid "Placeholder Arrow Position"
+msgstr ""
+
+#: ../meta/meta-gallery.php:87
+msgid "Left"
+msgstr ""
+
+#: ../meta/meta-gallery.php:88
+msgid "Center"
+msgstr ""
+
+#: ../meta/meta-gallery.php:89
+msgid "Right"
+msgstr ""
+
+#: ../meta/meta-gallery.php:95
+msgid "Info Fields"
+msgstr ""
+
+#: ../meta/meta-gallery.php:99
+msgid "Header Field"
+msgstr ""
+
+#: ../meta/meta-gallery.php:101
+msgid "Gallery Info"
+msgstr ""
+
+#: ../meta/meta-gallery.php:102
+msgid "Enter custom header text"
+msgstr ""
+
+#: ../meta/meta-gallery.php:106
+msgid "Gallery Field"
+msgstr ""
+
+#: ../meta/meta-gallery.php:108
+msgid "Project"
+msgstr ""
+
+#: ../meta/meta-gallery.php:109
+msgid "Define gallery field name text"
+msgstr ""
+
+#: ../meta/meta-gallery.php:113
+msgid "Experience Field"
+msgstr ""
+
+#: ../meta/meta-gallery.php:115
+msgid "Experience"
+msgstr ""
+
+#: ../meta/meta-gallery.php:116
+msgid "Define experience field name text"
+msgstr ""
+
+#: ../meta/meta-gallery.php:120
+msgid "Website Field"
+msgstr ""
+
+#: ../meta/meta-gallery.php:122
+msgid "Web"
+msgstr ""
+
+#: ../meta/meta-gallery.php:123
+msgid "Define website field name text"
+msgstr ""
+
+#: ../meta/meta-gallery.php:127
+msgid "Description Field"
+msgstr ""
+
+#: ../meta/meta-gallery.php:129
+msgid "Details"
+msgstr ""
+
+#: ../meta/meta-gallery.php:130
+msgid "Define details field name text"
+msgstr ""
+
+#: ../meta/meta-layout.php:32
+msgid ""
+"Disable breadcrumbs on a page by page basis.  Alternatively you can globally "
+"disable breadcrumbs under the &quot;General Settings&quot; tab in your "
+"theme's option panel."
+msgstr ""
+
+#: ../meta/meta-layout.php:34
+msgid "Check this option to disable breadcrumbs on this page"
+msgstr ""
+
+#: ../meta/meta-page.php:4
+#, php-format
+msgid "%1$s General Page Options"
+msgstr ""
+
+#: ../meta/meta-page.php:12 ../meta/meta-post.php:29
+msgid "Post Icon"
+msgstr ""
+
+#: ../meta/meta-page.php:13 ../meta/meta-post.php:30
+msgid "Please select post icon for some theme features such as Expose Slider."
+msgstr ""
+
+#: ../meta/meta-page.php:21
+msgid "Header Slider"
+msgstr ""
+
+#: ../meta/meta-page.php:27
+msgid "Slider Type"
+msgstr ""
+
+#: ../meta/meta-page.php:37
+msgid "Layer Slide"
+msgstr ""
+
+#: ../meta/meta-page.php:40
+msgid "Please select layer slider group."
+msgstr ""
+
+#: ../meta/meta-page.php:48
+msgid "Revolution Slide"
+msgstr ""
+
+#: ../meta/meta-page.php:50
+msgid "Please select revolution slider group."
+msgstr ""
+
+#: ../meta/meta-page.php:62
+msgid "Expose Category"
+msgstr ""
+
+#: ../meta/meta-page.php:63
+msgid "Select post category for Expose Slider."
+msgstr ""
+
+#: ../meta/meta-page.php:72
+msgid "Banner Options"
+msgstr ""
+
+#: ../meta/meta-page.php:77
+msgid "Image Size"
+msgstr ""
+
+#: ../meta/meta-page.php:78 ../meta/meta-page.php:632
+msgid "Edit image size."
+msgstr ""
+
+#: ../meta/meta-page.php:85 ../meta/meta-page.php:619
+#: ../meta/meta-page.php:625
+msgid "Disable Banner"
+msgstr ""
+
+#: ../meta/meta-page.php:86
+msgid "Check this option to remove Banner capabilities for slider."
+msgstr ""
+
+#: ../meta/meta-page.php:89 ../meta/meta-page.php:224
+msgid "Check this option to use featured images as background image."
+msgstr ""
+
+#: ../meta/meta-page.php:93
+msgid "Banner Position"
+msgstr ""
+
+#: ../meta/meta-page.php:94
+msgid "Please select banner position."
+msgstr ""
+
+#: ../meta/meta-page.php:105
+msgid "Banner Size"
+msgstr ""
+
+#: ../meta/meta-page.php:106
+msgid "Enter custom banner size."
+msgstr ""
+
+#: ../meta/meta-page.php:113 ../meta/meta-page.php:639
+#: ../meta/meta-vacancy.php:21
+msgid "Caption"
+msgstr ""
+
+#: ../meta/meta-page.php:114 ../meta/meta-page.php:640
+#: ../meta/meta-vacancy.php:22
+msgid "Enter main caption."
+msgstr ""
+
+#: ../meta/meta-page.php:121 ../meta/meta-page.php:655
+msgid "Button Caption"
+msgstr ""
+
+#: ../meta/meta-page.php:122 ../meta/meta-page.php:656
+msgid "Enter button caption."
+msgstr ""
+
+#: ../meta/meta-page.php:129 ../meta/meta-page.php:663
+msgid "Button Link"
+msgstr ""
+
+#: ../meta/meta-page.php:130 ../meta/meta-page.php:664
+msgid "Enter button link."
+msgstr ""
+
+#: ../meta/meta-page.php:137 ../meta/meta-page.php:647
+msgid "Banner Text"
+msgstr ""
+
+#: ../meta/meta-page.php:138 ../meta/meta-page.php:648
+msgid "Enter main text."
+msgstr ""
+
+#: ../meta/meta-page.php:145
+msgid "Image"
+msgstr ""
+
+#: ../meta/meta-page.php:146
+msgid "Upload foreground image."
+msgstr ""
+
+#: ../meta/meta-page.php:152
+msgid "Image Position"
+msgstr ""
+
+#: ../meta/meta-page.php:153
+msgid "Please select foreground image position."
+msgstr ""
+
+#: ../meta/meta-page.php:165
+msgid "Upload image for background."
+msgstr ""
+
+#: ../meta/meta-page.php:172
+msgid "Define background colour. By default is transparent."
+msgstr ""
+
+#: ../meta/meta-page.php:182 ../meta/meta-page.php:691
+msgid "Select caption colour."
+msgstr ""
+
+#: ../meta/meta-page.php:190 ../meta/meta-page.php:699
+msgid "Enter caption font size with pixels."
+msgstr ""
+
+#: ../meta/meta-page.php:197 ../meta/meta-page.php:706
+msgid "Content Colour"
+msgstr ""
+
+#: ../meta/meta-page.php:198 ../meta/meta-page.php:707
+msgid "Select content colour."
+msgstr ""
+
+#: ../meta/meta-page.php:205 ../meta/meta-page.php:714
+msgid "Content Font Size"
+msgstr ""
+
+#: ../meta/meta-page.php:206 ../meta/meta-page.php:715
+msgid "Enter content font size with pixels."
+msgstr ""
+
+#: ../meta/meta-page.php:214
+msgid "Full Width"
+msgstr ""
+
+#: ../meta/meta-page.php:216
+msgid "Use image in full width."
+msgstr ""
+
+#: ../meta/meta-page.php:217
+msgid "Check this option to disable image width resizing."
+msgstr ""
+
+#: ../meta/meta-page.php:221
+msgid "Featured Image as Background"
+msgstr ""
+
+#: ../meta/meta-page.php:223
+msgid "Use featured image as background."
+msgstr ""
+
+#: ../meta/meta-page.php:228 ../meta/meta-page.php:683
+msgid "Disable Button"
+msgstr ""
+
+#: ../meta/meta-page.php:230
+msgid "This option will remove button from banner."
+msgstr ""
+
+#: ../meta/meta-page.php:231 ../meta/meta-page.php:686
+msgid "Check this option to remove button from banner."
+msgstr ""
+
+#: ../meta/meta-page.php:242
+msgid "Roadmap Options"
+msgstr ""
+
+#: ../meta/meta-page.php:247
+msgid "Office Name"
+msgstr ""
+
+#: ../meta/meta-page.php:248
+msgid "Enter office name or title (optional)."
+msgstr ""
+
+#: ../meta/meta-page.php:256
+msgid "Enter map size."
+msgstr ""
+
+#: ../meta/meta-page.php:263
+msgid "Address"
+msgstr ""
+
+#: ../meta/meta-page.php:264
+msgid "Enter map address."
+msgstr ""
+
+#: ../meta/meta-page.php:271
+msgid "Zoom"
+msgstr ""
+
+#: ../meta/meta-page.php:272
+msgid "Enter map zoom level."
+msgstr ""
+
+#: ../meta/meta-page.php:280
+msgid "Map Type"
+msgstr ""
+
+#: ../meta/meta-page.php:281
+msgid "Select which type of map you would like to use."
+msgstr ""
+
+#: ../meta/meta-page.php:285
+msgid "Roadmap"
+msgstr ""
+
+#: ../meta/meta-page.php:286
+msgid "Satellite"
+msgstr ""
+
+#: ../meta/meta-page.php:287
+msgid "Hybrid"
+msgstr ""
+
+#: ../meta/meta-page.php:288
+msgid "Terrain"
+msgstr ""
+
+#: ../meta/meta-page.php:294
+msgid "Marker"
+msgstr ""
+
+#: ../meta/meta-page.php:295
+msgid "Upload map placemark."
+msgstr ""
+
+#: ../meta/meta-page.php:308
+msgid "Portfolio Items"
+msgstr ""
+
+#: ../meta/meta-page.php:309
+msgid "Define layout for portfolio items."
+msgstr ""
+
+#: ../meta/meta-page.php:322
+msgid "Portfolio Display Style"
+msgstr ""
+
+#: ../meta/meta-page.php:323
+msgid "Define Style for portfolio items."
+msgstr ""
+
+#: ../meta/meta-page.php:326
+msgid "Default Style"
+msgstr ""
+
+#: ../meta/meta-page.php:327
+msgid "Disable Title And Tags"
+msgstr ""
+
+#: ../meta/meta-page.php:328
+msgid "Round to the Circle (Without Title And Tags)"
+msgstr ""
+
+#: ../meta/meta-page.php:334
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../meta/meta-page.php:335
+msgid "Select portfolio taxonomy..."
+msgstr ""
+
+#: ../meta/meta-page.php:342
+msgid "Number of Items"
+msgstr ""
+
+#: ../meta/meta-page.php:343
+msgid "Define number of portfolio items per page."
+msgstr ""
+
+#: ../meta/meta-page.php:354
+msgid "Recent Updates Section"
+msgstr ""
+
+#: ../meta/meta-page.php:360
+msgid "Enable Recent Updates"
+msgstr ""
+
+#: ../meta/meta-page.php:362
+msgid "Check this option to enable  Updates box on this page"
+msgstr ""
+
+#: ../meta/meta-page.php:367
+msgid "Layout Type"
+msgstr ""
+
+#: ../meta/meta-page.php:368 ../meta/meta-page.php:464
+msgid ""
+"You can choose between a left, right or full width layout for this block."
+msgstr ""
+
+#: ../meta/meta-page.php:383 ../meta/meta-page.php:422
+msgid "Recent Updates"
+msgstr ""
+
+#: ../meta/meta-page.php:384
+msgid "Enter spotlight block caption."
+msgstr ""
+
+#: ../meta/meta-page.php:389 ../options/lib/slider.inc.php:23
+msgid "Title Length"
+msgstr ""
+
+#: ../meta/meta-page.php:392 ../meta/meta-page.php:487
+msgid "Trim post title in preview box"
+msgstr ""
+
+#: ../meta/meta-page.php:397
+msgid "Body Length"
+msgstr ""
+
+#: ../meta/meta-page.php:400 ../meta/meta-page.php:495
+msgid "Trim post content in preview box"
+msgstr ""
+
+#: ../meta/meta-page.php:404
+msgid "Enable Read More Button"
+msgstr ""
+
+#: ../meta/meta-page.php:406
+msgid "This option will enable Updates Read More buttons"
+msgstr ""
+
+#: ../meta/meta-page.php:407
+msgid ""
+"Check this option to enable READ MORE buttons inside spotlight elements on "
+"this page"
+msgstr ""
+
+#: ../meta/meta-page.php:412
+msgid "Updates Category"
+msgstr ""
+
+#: ../meta/meta-page.php:420
+msgid "Twitter Caption"
+msgstr ""
+
+#: ../meta/meta-page.php:423
+msgid "Specify twitter block caption."
+msgstr ""
+
+#: ../meta/meta-page.php:428
+msgid "Twitter Username"
+msgstr ""
+
+#: ../meta/meta-page.php:430
+msgid "envato"
+msgstr ""
+
+#: ../meta/meta-page.php:431
+msgid "Specify your twitter user."
+msgstr ""
+
+#: ../meta/meta-page.php:436
+msgid "Max Tweets"
+msgstr ""
+
+#: ../meta/meta-page.php:438
+msgid "5"
+msgstr ""
+
+#: ../meta/meta-page.php:439
+msgid "Specify number of tweets."
+msgstr ""
+
+#: ../meta/meta-page.php:451
+msgid "News"
+msgstr ""
+
+#: ../meta/meta-page.php:457
+msgid "Enable News"
+msgstr ""
+
+#: ../meta/meta-page.php:459
+msgid "Check this option to enable news box on this page"
+msgstr ""
+
+#: ../meta/meta-page.php:463
+msgid "News Layout"
+msgstr ""
+
+#: ../meta/meta-page.php:476
+msgid "News Caption"
+msgstr ""
+
+#: ../meta/meta-page.php:478
+msgid "Recent News"
+msgstr ""
+
+#: ../meta/meta-page.php:479
+msgid "Enter news block caption."
+msgstr ""
+
+#: ../meta/meta-page.php:484
+msgid "News Title Length"
+msgstr ""
+
+#: ../meta/meta-page.php:492
+msgid "News Body Length"
+msgstr ""
+
+#: ../meta/meta-page.php:500
+msgid "Number of News"
+msgstr ""
+
+#: ../meta/meta-page.php:503
+msgid "Enter number of news to display in one block"
+msgstr ""
+
+#: ../meta/meta-page.php:508
+msgid "Date Style"
+msgstr ""
+
+#: ../meta/meta-page.php:525
+msgid ""
+"Check this option to enable READ MORE buttons inside news elements on this "
+"page"
+msgstr ""
+
+#: ../meta/meta-page.php:529
+msgid "News Page"
+msgstr ""
+
+#: ../meta/meta-page.php:530
+msgid "Enter the custom news page address that you'd like use."
+msgstr ""
+
+#: ../meta/meta-page.php:536 ../meta/meta-page.php:598
+msgid "More Caption"
+msgstr ""
+
+#: ../meta/meta-page.php:537 ../meta/meta-page.php:599
+msgid "Enter caption for MORE button."
+msgstr ""
+
+#: ../meta/meta-page.php:538
+msgid "More News"
+msgstr ""
+
+#: ../meta/meta-page.php:553
+msgid "Gallery"
+msgstr ""
+
+#: ../meta/meta-page.php:560
+msgid "Check this option to enable portfolio carousel on this page"
+msgstr ""
+
+#: ../meta/meta-page.php:566
+msgid "Check this option to enable gallery carousel auto play on this page"
+msgstr ""
+
+#: ../meta/meta-page.php:591
+msgid "Gallery Page"
+msgstr ""
+
+#: ../meta/meta-page.php:592
+msgid "Enter the custom gallery page address that you'd like use."
+msgstr ""
+
+#: ../meta/meta-page.php:600
+msgid "More"
+msgstr ""
+
+#: ../meta/meta-page.php:612
+msgid "Footer Banner"
+msgstr ""
+
+#: ../meta/meta-page.php:620
+msgid "Check this option to disable footer banner."
+msgstr ""
+
+#: ../meta/meta-page.php:626
+msgid "Enable Banner"
+msgstr ""
+
+#: ../meta/meta-page.php:631
+msgid "Banner Height"
+msgstr ""
+
+#: ../meta/meta-page.php:671
+msgid "Button Position"
+msgstr ""
+
+#: ../meta/meta-page.php:672
+msgid "Please select foreground button position."
+msgstr ""
+
+#: ../meta/meta-page.php:685
+msgid "This option may remove button from banner."
+msgstr ""
+
+#: ../meta/meta-page.php:724
+msgid "Please specify custom background colour."
+msgstr ""
+
+#: ../meta/meta-page.php:732
+msgid "Upload background image."
+msgstr ""
+
+#: ../meta/meta-page.php:739
+msgid "Background Gradient Primary Colour"
+msgstr ""
+
+#: ../meta/meta-page.php:740
+msgid "Please specify gradient primary colour."
+msgstr ""
+
+#: ../meta/meta-page.php:747
+msgid "Background Gradient Secondary Colour"
+msgstr ""
+
+#: ../meta/meta-page.php:748
+msgid "Please specify gradient secondary colour."
+msgstr ""
+
+#: ../meta/meta-portfolio.php:17
+msgid "Project Options"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:21
+msgid "About <small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:22
+msgid "Enter additional project description. Shortcodes are available"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:29
+msgid "Overview <small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:30
+msgid "Enter additional project overview. Shortcodes are available"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:37
+msgid "Project Date <small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:38
+msgid "Enter the date that the project was completed."
+msgstr ""
+
+#: ../meta/meta-portfolio.php:44
+msgid "Project Link <small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:45
+msgid "Enter the url of the project for the \"Visit Site\" button."
+msgstr ""
+
+#: ../meta/meta-portfolio.php:52
+msgid "Project Short Description <small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:53
+msgid ""
+"The text you enter here will show up next to or below the gallery image "
+"depending on which column layout you've selected."
+msgstr ""
+
+#: ../meta/meta-portfolio.php:59
+msgid "Fullsize Lightbox <small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:60
+msgid ""
+"The fullsize images you would like to use for the portfolio lightbox pop-up "
+"demonstration.  If not assigned, it will use your featured image instead."
+msgstr ""
+
+#: ../meta/meta-portfolio.php:67
+msgid "Project Video Link URL<small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:68
+msgid ""
+"Flash, YouTube, Vimeo & iFrames.<br />Example:<br /><br />Vimeo:<br />http://"
+"vimeo.com/8011831<br /><br />YouTube:<br />http://www.youtube.com/watch?"
+"v=NN9MmXAuWPg<br /><br />.swf:<br />http://www.adobe.com/products/"
+"flashplayer/include/marquee/design.swf?width=792&height=294<br /><br />.mov:"
+"<br />http://trailers.apple.com/movies/disney/oceans/oceans-clip1_r640s.mov?"
+"width=640&height=272<br /><br />iFrame:<br />http://www.google.com?"
+"iframe=true&width=100%&height=100%<br />"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:75 ../meta/meta-service.php:40
+msgid "Link to post <small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:76 ../meta/meta-service.php:41
+msgid ""
+"Check this option if you'd like the portfolio gallery image to link to the "
+"portfolio post instead of the jQuery lightbox image pop-up effect."
+msgstr ""
+
+#: ../meta/meta-portfolio.php:86 ../options/lib/slider.inc.php:75
+msgid "Slideshow"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:92 ../meta/meta-post.php:38
+msgid "Disable Social Bookmarks"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:93 ../meta/meta-post.php:39
+#: ../options/lib/layout-blog.inc.php:122
+msgid ""
+"By default a social bookmarks module will display when viewing your posts."
+"<br /><br />You can choose to disable it here."
+msgstr ""
+
+#: ../meta/meta-portfolio.php:95 ../meta/meta-post.php:41
+#: ../options/lib/layout-blog.inc.php:124
+msgid "Disable the Social Bookmarks Module"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:100
+msgid "Disable Read More Link <small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:101
+msgid ""
+"Check this box if you'd like to disable the portfolio &quot;Read More&quot; "
+"button which links to the blog post."
+msgstr ""
+
+#: ../meta/meta-portfolio.php:108
+msgid "Disable Fullsize Image <small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-portfolio.php:109
+msgid ""
+"Check this box if you'd like to disable the fullsize image that appears at "
+"the top of the portfolio blog post."
+msgstr ""
+
+#: ../meta/meta-post-slideshow.php:4
+#, php-format
+msgid "%1$s Slideshow Post Options"
+msgstr ""
+
+#: ../meta/meta-post-slideshow.php:12
+msgid "Homepage Slider Image"
+msgstr ""
+
+#: ../meta/meta-post-slideshow.php:13
+msgid "Upload the image you'd like to use for the slideshow."
+msgstr ""
+
+#: ../meta/meta-post-slideshow.php:20
+msgid "Select the the staging effect that you'd like for this slide."
+msgstr ""
+
+#: ../meta/meta-post-slideshow.php:26
+msgid "Disable Slider Text"
+msgstr ""
+
+#: ../meta/meta-post-slideshow.php:27
+msgid ""
+"Check this box if you'd like to disable the post excerpt content from "
+"appearing on the slideshow."
+msgstr ""
+
+#: ../meta/meta-post-slideshow.php:29
+msgid "Check to disable slider text"
+msgstr ""
+
+#: ../meta/meta-post.php:4 ../meta/meta-staff.php:4
+#, php-format
+msgid "%1$s General Post Options"
+msgstr ""
+
+#: ../meta/meta-post.php:16
+msgid "Featured Video"
+msgstr ""
+
+#: ../meta/meta-post.php:17
+msgid ""
+"You can paste a URI of a video here to display within your post.<br /><br /"
+">Examples on how to format the links.<br /><br />YouTube:<br /><br />http://"
+"www.youtube.com/watch?v=fxs970FMYIo<br /><br />Vimeo:<br /><br />http://"
+"vimeo.com/8736190"
+msgstr ""
+
+#: ../meta/meta-post.php:22
+msgid "Disable Featured Image"
+msgstr ""
+
+#: ../meta/meta-post.php:23
+msgid ""
+"Check this box if you'd like to disable the featured post image from "
+"appearing on the single post, by checking this box the featured post image "
+"you have defined will only show on the blog index page and the designated "
+"widgets."
+msgstr ""
+
+#: ../meta/meta-post.php:25
+msgid "Check to disable the featured image on this post"
+msgstr ""
+
+#: ../meta/meta-post.php:45
+msgid "Post Display type"
+msgstr ""
+
+#: ../meta/meta-post.php:46
+msgid "Here, you can choose specific type of display this post."
+msgstr ""
+
+#: ../meta/meta-post.php:50
+msgid "Display featured Image / Video"
+msgstr ""
+
+#: ../meta/meta-post.php:51
+msgid "Display Additional Post Images"
+msgstr ""
+
+#: ../meta/meta-post.php:52
+msgid "Display custom quote"
+msgstr ""
+
+#: ../meta/meta-post.php:53
+msgid "Display Sound Cloud"
+msgstr ""
+
+#: ../meta/meta-post.php:58
+msgid "Featured Quote"
+msgstr ""
+
+#: ../meta/meta-post.php:59
+msgid "Type here quote that you want to highlight"
+msgstr ""
+
+#: ../meta/meta-post.php:64
+msgid "Link on Featured Sound Cloud"
+msgstr ""
+
+#: ../meta/meta-post.php:65
+msgid ""
+"You can define sound cloud URI here. <br />Example: https://soundcloud.com/"
+"vexare/children-vexare-remix"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:4
+#, php-format
+msgid "%1$s Custom Pricing Table Options"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:12
+msgid "Display Style"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:13
+msgid "Select stile for this price table."
+msgstr ""
+
+#: ../meta/meta-pricetable.php:17
+msgid "Union"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:18
+msgid "Separated"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:23
+msgid "Enable Custom Colors"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:24
+msgid "This option can enable colour customisation capabilities."
+msgstr ""
+
+#: ../meta/meta-pricetable.php:28
+msgid "Check here for enable custom colors on site"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:33
+msgid "Currency Sign"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:34
+msgid "Enter currency sign."
+msgstr ""
+
+#: ../meta/meta-pricetable.php:40
+msgid "Heading Row Background"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:41
+msgid "Please select custom background for table header."
+msgstr ""
+
+#: ../meta/meta-pricetable.php:47
+msgid "Heading Row Color"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:48
+msgid "Please select custom text color for table header."
+msgstr ""
+
+#: ../meta/meta-pricetable.php:54
+msgid "Price Row Background"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:55
+msgid "Please select custom background for table price row."
+msgstr ""
+
+#: ../meta/meta-pricetable.php:61
+msgid "Price Row Color"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:62 ../meta/meta-pricetable.php:69
+#: ../meta/meta-pricetable.php:76
+msgid "Please select custom text color for table price row."
+msgstr ""
+
+#: ../meta/meta-pricetable.php:68
+msgid "Button Background First (top) Color"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:75
+msgid "Button Background Second (bottom) Color"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:82
+msgid "Text After"
+msgstr ""
+
+#: ../meta/meta-pricetable.php:83
+msgid "Enter text after price"
+msgstr ""
+
+#: ../meta/meta-review.php:33
+#, php-format
+msgid "%1$s Review"
+msgstr ""
+
+#: ../meta/meta-service.php:16
+msgid "Default Icon"
+msgstr ""
+
+#: ../meta/meta-service.php:17
+msgid "The service icon you would like to use for current service."
+msgstr ""
+
+#: ../meta/meta-service.php:25
+msgid "Selected Icon <small>(optional)</small>"
+msgstr ""
+
+#: ../meta/meta-service.php:26
+msgid "Service icon for selected / active image."
+msgstr ""
+
+#: ../meta/meta-staff.php:12
+msgid "Position"
+msgstr ""
+
+#: ../meta/meta-staff.php:13
+msgid "Please write a position to this employee."
+msgstr ""
+
+#: ../meta/meta-staff.php:18
+msgid "Social pages"
+msgstr ""
+
+#: ../meta/meta-staff.php:19
+msgid "Please select social pages to this employee."
+msgstr ""
+
+#: ../meta/meta-vacancy.php:4
+#, php-format
+msgid "%1$s Job Application Options"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:13
+msgid "Application Form Visibility"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:16
+msgid "Enable job application form."
+msgstr ""
+
+#: ../meta/meta-vacancy.php:30
+msgid "Recipient Email"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:31
+msgid "Enter application recipient email address."
+msgstr ""
+
+#: ../meta/meta-vacancy.php:39
+msgid "Subject (optional)"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:40
+msgid "Enter application subject that will be shown as email subject."
+msgstr ""
+
+#: ../meta/meta-vacancy.php:48
+msgid "Labels"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:53
+msgid "Name Label"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:54
+msgid "Enter main  name field label."
+msgstr ""
+
+#: ../meta/meta-vacancy.php:62
+msgid "Details Label"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:63
+msgid "Enter description field label."
+msgstr ""
+
+#: ../meta/meta-vacancy.php:71
+msgid "Phone Label"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:72
+msgid "Enter phone field label."
+msgstr ""
+
+#: ../meta/meta-vacancy.php:80
+msgid "Email Label"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:81
+msgid "Enter e-mail field label."
+msgstr ""
+
+#: ../meta/meta-vacancy.php:89
+msgid "Attachment Label"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:90
+msgid "Enter attachment field label."
+msgstr ""
+
+#: ../meta/meta-vacancy.php:98
+msgid "Button Label"
+msgstr ""
+
+#: ../meta/meta-vacancy.php:99
+msgid "Enter submit buttio label."
+msgstr ""
+
+#: ../options/lib/advanced.inc.php:7
+msgid "Backup"
+msgstr ""
+
+#: ../options/lib/advanced.inc.php:15
+msgid "Import theme options"
+msgstr ""
+
+#: ../options/lib/advanced.inc.php:16
+msgid "Copy your export code here to import your theme settings."
+msgstr ""
+
+#: ../options/lib/advanced.inc.php:21
+msgid "Export theme options"
+msgstr ""
+
+#: ../options/lib/advanced.inc.php:22
+msgid ""
+"When moving your site to a new WordPress installation you can export your "
+"theme settings here."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:6
+msgid "Branding"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:17
+msgid "Rounded borders"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:18
+msgid ""
+"This option will enable rounded borders for primary elements and blocks."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:20
+msgid "Enable rounded borders"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:25
+msgid "Full width header"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:26
+#, php-format
+msgid "This option will stretch header to 90% of screen width."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:28
+msgid "Enable fullwidth header"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:33
+msgid "Full width content"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:34
+#, php-format
+msgid "This option will stretch content to 90% of screen width."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:36
+msgid "Enable fullwidth content"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:41 ../options/lib/branding.inc.php:46
+msgid "Extra header"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:47
+msgid "This option will enable extra header region at the website top."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:49
+msgid "Enable Extra Header"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:54
+msgid "Extra header text"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:55
+msgid ""
+"This will display in your header.<br /> We recommend you to leave your "
+"contacts, such as phone or address here."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:62
+msgid "Extra header features"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:63
+msgid "Select items for extra header section."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:66
+msgid "Display extra text (edit text above)"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:67
+msgid "Display menu (edit Appearance / Menu)"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:68
+msgid "Display current date"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:69
+msgid "Display language dropdown"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:70
+msgid "Display social icons (edit Theme Options / Sociable)"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:71
+msgid "Display login link (edit Theme Options / Pages)"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:72
+msgid "Display shop link (edit Theme Options / Store)"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:73
+msgid "Display checkout link (edit Theme Options / Store)"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:74
+msgid "Display subscribe link (edit Theme Options / Pages)"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:81
+msgid "Date format"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:82
+msgid "Specify date format."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:86 ../options/lib/branding.inc.php:87
+#: ../options/lib/branding.inc.php:88 ../options/lib/branding.inc.php:89
+#: ../options/lib/branding.inc.php:90 ../options/lib/branding.inc.php:92
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:91
+#, php-format
+msgid "%1$s (only month)"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:97
+msgid "Languages"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:98
+msgid "This option may help you create language switcher for extra header."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:108
+msgid "Menu settings"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:114
+msgid "Menu logo"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:115
+msgid "This option will add logo right to primary menu."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:117
+msgid "Add logo to menu"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:122
+msgid "Menu centering"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:123
+msgid "Check this option to align center menu items."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:125
+msgid "Enable menu centering"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:130
+msgid "Menu order"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:131
+msgid "Specify primary menu order vertically. You may reorder menu."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:143
+msgid "Menu height"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:144
+msgid "You can specify custom menu height (in pixels).<br />Example: 60."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:159
+msgid "Sticky menu options"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:163
+msgid "Sticky menu"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:164
+msgid "Main menu holds on the top and fixed when you scrolling the page."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:166
+msgid "Enable Sticky Menu"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:171
+msgid "Menu opacity"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:172
+msgid "You may specify sticky menu transparency."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:183
+msgid "Sticky logo height"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:184
+msgid "Enter menu logo height in pixels."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:195
+msgid "Logo settings"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:201
+msgid "Logo type"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:202
+msgid ""
+"You can choose whether you wish to display a custom logo or your site title."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:205 ../options/lib/branding.inc.php:211
+msgid "Custom image logo"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:206
+#, php-format
+msgid ""
+"Display site title <small><a href=\"%1$s\" target=\"_blank\">(click here to "
+"edit site title)</a></small>"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:212
+msgid "Upload an image to use as your logo."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:218
+msgid "Logo height"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:219
+msgid "Enter logo height in pixels."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:226
+msgid "Custom footer logo"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:227
+msgid ""
+"Upload an image to use as your footer logo for widget area. Please use high "
+"resolutions fot Retina ready devices."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:233
+msgid "Login logo"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:234
+msgid "Upload image for WordPress login page."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:244
+msgid "Header order"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:245
+msgid "Specify header layout order."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:249
+msgid "Logo / Custom content / Contacts"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:250
+msgid "Logo / Custom content"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:251
+msgid "Only centered logo"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:257
+msgid "Header height"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:258
+msgid "You can specify custom header height (in pixels).<br />Example: 120"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:269
+msgid "Header description"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:270
+msgid "Enter header custom text."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:277
+msgid "Custom favicon"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:278
+msgid "Upload your favicon."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:283
+msgid "Apple touch icon"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:284
+msgid "Upload website icon for Apple platform."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:290
+msgid "Header company location"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:291
+msgid ""
+"This option will add company location in site header. Leave blank to remove."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:298
+msgid "Header phone"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:299
+msgid ""
+"This option will add phone number in site header. Leave blank to remove."
+msgstr ""
+
+#: ../options/lib/branding.inc.php:306
+msgid "Header email"
+msgstr ""
+
+#: ../options/lib/branding.inc.php:307
+msgid ""
+"This option will add email address in site header. Leave blank to remove."
+msgstr ""
+
+#: ../options/lib/footer.inc.php:7
+msgid "Footer"
+msgstr ""
+
+#: ../options/lib/footer.inc.php:17
+msgid "Footer column layout"
+msgstr ""
+
+#: ../options/lib/footer.inc.php:18
+msgid "Select which column layout you would like to display with your footer."
+msgstr ""
+
+#: ../options/lib/footer.inc.php:42
+msgid "Disable footer widgets"
+msgstr ""
+
+#: ../options/lib/footer.inc.php:43
+msgid "Check this if you do not wish to display any widgets with your footer."
+msgstr ""
+
+#: ../options/lib/footer.inc.php:45
+msgid "Disable all widgets in footer"
+msgstr ""
+
+#: ../options/lib/footer.inc.php:50
+msgid "Footer contacts caption"
+msgstr ""
+
+#: ../options/lib/footer.inc.php:51
+msgid ""
+"Specify title for footer contacts block. Caption will be displayed above "
+"footer contacts text."
+msgstr ""
+
+#: ../options/lib/footer.inc.php:59
+msgid "Footer contacts text"
+msgstr ""
+
+#: ../options/lib/footer.inc.php:60
+msgid ""
+"Enter contact information here. Contacts will be displayed bottom left your "
+"website footer."
+msgstr ""
+
+#: ../options/lib/footer.inc.php:68
+msgid "Copyrights"
+msgstr ""
+
+#: ../options/lib/footer.inc.php:69
+msgid "Enter copyrights for footer right."
+msgstr ""
+
+#: ../options/lib/general.inc.php:15
+msgid "Responsive layout"
+msgstr ""
+
+#: ../options/lib/general.inc.php:16
+msgid ""
+"This option making theme \"responsive\" or adaptive to be compatible with "
+"mobile devices such as iPhone, iPad, Android, Blackberry and respond to your "
+"users needs. By default this option enabled."
+msgstr ""
+
+#: ../options/lib/general.inc.php:18
+msgid ""
+"Responsive web design is an approach to web design in which a site is "
+"crafted to provide an optimal viewing experience easy reading and navigation "
+"with a minimum of resizing, panning, and scrolling across a wide range of "
+"devices."
+msgstr ""
+
+#: ../options/lib/general.inc.php:20 ../options/lib/general.inc.php:32
+#: ../options/lib/reviews.inc.php:20
+msgid "Enable"
+msgstr ""
+
+#: ../options/lib/general.inc.php:21 ../options/lib/general.inc.php:33
+#: ../options/lib/reviews.inc.php:21
+msgid "Disable"
+msgstr ""
+
+#: ../options/lib/general.inc.php:28
+msgid "Retina"
+msgstr ""
+
+#: ../options/lib/general.inc.php:29
+msgid ""
+"This option making sites compatible with retina-technology screens (high "
+"quality and high resolution screens) with one click. Users of latest Apple "
+"devices will appreciate the picture quality."
+msgstr ""
+
+#: ../options/lib/general.inc.php:40
+msgid "Layout type"
+msgstr ""
+
+#: ../options/lib/general.inc.php:41
+msgid ""
+"Choose between flexible (picture will adjust and take the full width of the "
+"screen) and boxed (not flexible) layout type."
+msgstr ""
+
+#: ../options/lib/general.inc.php:42
+msgid ""
+"You can try layout on our demo site <a href=\"http://radiostation.wp."
+"irishmiss.com\">www.radiostation.wp.irishmiss.com</a>."
+msgstr ""
+
+#: ../options/lib/general.inc.php:54 ../options/lib/general.inc.php:57
+msgid "Disable search button"
+msgstr ""
+
+#: ../options/lib/general.inc.php:55
+msgid "By default primary navigation contain search button."
+msgstr ""
+
+#: ../options/lib/general.inc.php:62 ../options/lib/general.inc.php:65
+msgid "Enable preloader"
+msgstr ""
+
+#: ../options/lib/general.inc.php:63
+msgid "Check this option to enable page preloader script."
+msgstr ""
+
+#: ../options/lib/general.inc.php:70
+msgid "Disable page title"
+msgstr ""
+
+#: ../options/lib/general.inc.php:71
+msgid "Check this option to hide H1 page caption from all pages."
+msgstr ""
+
+#: ../options/lib/general.inc.php:73
+msgid "Disable page caption globally"
+msgstr ""
+
+#: ../options/lib/general.inc.php:78
+msgid "Disable breadcrumbs"
+msgstr ""
+
+#: ../options/lib/general.inc.php:79
+msgid ""
+"Breadcrumbs allows users to keep track of their locations within pages or "
+"posts. Here you can disable breadcrumbs from site."
+msgstr ""
+
+#: ../options/lib/general.inc.php:81
+msgid "Disable breadcrumbs globally"
+msgstr ""
+
+#: ../options/lib/general.inc.php:86
+msgid "Breadcrumbs delimiter"
+msgstr ""
+
+#: ../options/lib/general.inc.php:87
+msgid ""
+"Define breadcrumbs delimiter to separate each location.<br />Example:<br /"
+"><br /><code>/ > - &rarr; , :: >></code>"
+msgstr ""
+
+#: ../options/lib/general.inc.php:89
+msgid ""
+"Example: Blog / Category / Post <br />On example you can see two delimiters "
+"\"/\". Default delimiter is \"/\" and anytime you can change it by editing "
+"this option."
+msgstr ""
+
+#: ../options/lib/general.inc.php:95
+msgid "Latest tweets"
+msgstr ""
+
+#: ../options/lib/general.inc.php:96
+msgid "This option enable or disable latest tweets carousel displaying mode."
+msgstr ""
+
+#: ../options/lib/general.inc.php:98
+msgid "Disable tweets carousel"
+msgstr ""
+
+#: ../options/lib/general.inc.php:103
+msgid "Shortcode generator"
+msgstr ""
+
+#: ../options/lib/general.inc.php:104
+msgid "Select post types for shortcode generator."
+msgstr ""
+
+#: ../options/lib/general.inc.php:112
+msgid "Analytics / Zopim"
+msgstr ""
+
+#: ../options/lib/general.inc.php:113
+msgid "Paste Analytics code or Zopim widget code here."
+msgstr ""
+
+#: ../options/lib/general.inc.php:114
+msgid ""
+"The Google Analytics tracking code collects visitor data for your web "
+"property, and returns that data to Analytics where you can see it in "
+"reports. When you add a new web property to your Analytics account, "
+"Analytics generates the tracking code snippet that you need to add to the "
+"pages whose data you want to collect.<br /><br />Get your tracking code <a "
+"href=\"http://analytics.google.com/\" target=\"_BLANK\">here</a>"
+msgstr ""
+
+#: ../options/lib/general.inc.php:119
+msgid "Custom CSS"
+msgstr ""
+
+#: ../options/lib/general.inc.php:120
+msgid ""
+"Place for custom styles. This option may customise any style of the website. "
+"<br />Example:<br /><br /><code>.logo a { color: blue; }</code>"
+msgstr ""
+
+#: ../options/lib/general.inc.php:121
+msgid ""
+"Requires some skills. Example:<br /><br /><code>.logo a { color: blue; }</"
+"code><br /><br />If you are having problems styling something then ask on "
+"the support forum and we will be with you shortly."
+msgstr ""
+
+#: ../options/lib/general.inc.php:127
+msgid "Custom JavaScript"
+msgstr ""
+
+#: ../options/lib/general.inc.php:128
+msgid "Place for custom javascript. Required some skills."
+msgstr ""
+
+#: ../options/lib/general.inc.php:129
+msgid ""
+"Requires Javascript skills. Code Example:<br /><br /><code>alert (\"Hello "
+"World!\")</code><br />"
+msgstr ""
+
+#: ../options/lib/home.inc.php:6
+msgid "Homepage"
+msgstr ""
+
+#: ../options/lib/home.inc.php:16
+msgid "Default Layout"
+msgstr ""
+
+#: ../options/lib/home.inc.php:17
+msgid ""
+"You have ability to choose between a left, right, or no sidebar layout for "
+"your homepage, feel free to choose wherever you like."
+msgstr ""
+
+#: ../options/lib/home.inc.php:28
+msgid "Custom Homepage Text"
+msgstr ""
+
+#: ../options/lib/home.inc.php:29
+msgid ""
+"You can add additional text / shortcode / content for homepage.<br /><br /"
+">This will display under the slider and call to action button."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:7
+msgid "Blog Layout"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:17
+msgid "Blog title"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:18
+msgid "Enter custom title for Blog here."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:20
+msgid "Blog"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:36
+msgid "Blog home layout"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:37
+msgid ""
+"Your blog posts will use the layout you select here.<br /><br />If you want "
+"an image to display in the layout then do not forget to set your featured "
+"image when editing your posts."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:50
+msgid "Pagination mode"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:51
+msgid ""
+"Please specify pagination mode for your blog posts and custom posts index."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:55
+msgid "Use classic pagination"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:56
+msgid "Load posts automatically where latest reached"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:63
+msgid "Exclude categories"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:64
+msgid "You can choose certain categories to exclude from your blog page."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:70
+msgid "Popular &amp; related posts"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:71
+msgid ""
+"By default a popular / related posts module will display on your posts.  You "
+"can choose how to display it or disable it here."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:74
+msgid "Display in a Tabbed Layout"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:75
+msgid "Display in a Column Layout"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:76
+msgid "Disable Popular &amp; Related Posts Module"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:81
+msgid "Comments &amp; trackbacks"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:82
+msgid ""
+"You can choose whether you want your comments and trackbacks bundled "
+"together or separated in tabs."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:85
+msgid "Display single tabs"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:86
+msgid "Display together in a list"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:91
+msgid "Display full blog posts"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:92
+msgid ""
+"By default blog posts will be displayed as excerpts.<br /><br />Checking "
+"this will display the full content of your post."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:94
+msgid "Display Full Blog Posts on Blog Index Page"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:98
+msgid "Disable author information"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:99
+msgid ""
+"By default an about the author module will display when viewing your posts. "
+"You can disable it here."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:101
+msgid "Disable the About Author Module"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:106
+msgid "Disable read more buttons"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:107
+msgid "Check this to disable read more buttons."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:109
+msgid "Hide \"Read More\" Button"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:114
+msgid "Disable post navigation"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:115
+msgid ""
+"By default your posts will display links at the bottom to blog nearest "
+"posts. Check this to disable those links."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:117
+msgid "Disable Post Navigation Module"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:121
+msgid "Disable social bookmarks"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:128 ../options/lib/slider.inc.php:50
+msgid "Animation"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:129
+msgid "Turn on CSS3 transitions. You may specify animation effect."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:139
+msgid "URL shortening"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:140
+msgid ""
+"You can choose to have certain links automatically use the bit.ly URL "
+"shortening service.<br /><br />For example the social icons on each post "
+"will use bit.ly URLs when this is checked."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:142
+msgid "Enable bit.ly URL Shortening"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:147
+msgid "bit.ly Login"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:148
+msgid "Input the Username for your bit.ly account here."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:154
+msgid "bit.ly API Key"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:155
+msgid ""
+"Input the API key for your bit.ly account here.<br /><br />You can find this "
+"by logging in at bit.ly and navigating to your settings page."
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:161
+msgid "Disable meta options"
+msgstr ""
+
+#: ../options/lib/layout-blog.inc.php:162
+msgid ""
+"The post meta will display under the title on your blog page.<br /><br />You "
+"can choose sections to disable here."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:7
+msgid "Pages"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:17
+msgid "Default parent pages"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:23
+msgid "Archive caption"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:24
+msgid "Enter title for posts archive page."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:31
+msgid "News page caption"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:32
+msgid "Enter title for news archive page."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:39
+msgid "Testimonials page caption"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:40
+msgid "Enter title for testimonials archive page."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:47
+msgid "Vacancies page caption"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:48
+msgid "Enter title for job archive page."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:55
+msgid "Blog page"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:56
+msgid "Choose one of your pages to use as a blog page."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:63
+msgid "Albums page"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:64
+msgid "Choose one of your pages to use as a gallery page template."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:71
+msgid "Portfolio page"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:72
+msgid "Choose one of your pages to use as a portfolio page template."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:86
+msgid "Sign In"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:92
+msgid "Login page URL"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:93
+msgid "Enter login page URL."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:99
+msgid "Login menu title"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:100
+msgid "Enter login extra menu title."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:113 ../options/lib/store.inc.php:20
+msgid "Store"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:119
+msgid "Store URL"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:120
+msgid "Enter shop page URL."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:126
+msgid "Store page caption"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:127
+msgid "Enter shop page title."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:133
+msgid "Store extra header caption"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:134
+msgid "Enter title for shop extra menu."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:147
+msgid "Checkout"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:153
+msgid "Checkout URL"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:154
+msgid "Enter checkout page URL."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:160
+msgid "Checkout menu title"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:161
+msgid "Enter title for checkout extra menu."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:176
+msgid "Subscribe"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:182
+msgid "Subscribe URL"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:183
+msgid "Enter subscribe page URL."
+msgstr ""
+
+#: ../options/lib/pages.inc.php:189
+msgid "Subscribe menu title"
+msgstr ""
+
+#: ../options/lib/pages.inc.php:190
+msgid "Enter subscribe extra menu title."
+msgstr ""
+
+#: ../options/lib/partners.inc.php:7 ../options/lib/partners.inc.php:58
+msgid "Partners"
+msgstr ""
+
+#: ../options/lib/partners.inc.php:17
+msgid "Displaying options"
+msgstr ""
+
+#: ../options/lib/partners.inc.php:18
+msgid "Partners displaying options."
+msgstr ""
+
+#: ../options/lib/partners.inc.php:21
+msgid "Display partners on all pages"
+msgstr ""
+
+#: ../options/lib/partners.inc.php:22
+msgid "Keep partners ONLY for Front page"
+msgstr ""
+
+#: ../options/lib/partners.inc.php:23
+msgid "Disable partners globally"
+msgstr ""
+
+#: ../options/lib/partners.inc.php:30
+msgid "Caption for partners block."
+msgstr ""
+
+#: ../options/lib/partners.inc.php:38
+msgid "Tagline"
+msgstr ""
+
+#: ../options/lib/partners.inc.php:39
+msgid "Alternative title for partners block."
+msgstr ""
+
+#: ../options/lib/partners.inc.php:47
+msgid "Items per slide"
+msgstr ""
+
+#: ../options/lib/partners.inc.php:48
+msgid "Specify number of partners for 1 slide."
+msgstr ""
+
+#: ../options/lib/partners.inc.php:59
+msgid ""
+"Partners Generator helping create link and add partner's logo to website "
+"footer."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:7
+msgid "Image Resizing"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:17 ../options/lib/resize.inc.php:20
+msgid "Disable Image Resizing"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:18
+msgid ""
+"Check this option to disable all image resizing.<br />Images will be "
+"displayed in the dimensions as they were uploaded. This option is not "
+"recommended."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:25
+msgid "Image Resizing Method"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:26
+msgid ""
+"Choose the way you wish to use for image resizing. Here is present WordPress "
+"Built-In (recommended) resizing and Timthumb script."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:29
+msgid "Built-In WordPress"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:30
+msgid "Timthumb"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:36
+msgid "Auto Featured Image"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:37
+msgid ""
+"By default features such as the portfolio and blog will use the \"featured "
+"image\" in your posts.<br /><br />Check this if you wish to use the first "
+"image uploaded to your post instead of the featured image."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:39
+msgid "Enable Auto Featured Image Selection"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:44
+msgid "Portfolio Images Sizes"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:49
+msgid "One Column Portfolio"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:50
+msgid ""
+"Input the dimensions that you would like the one column portfolio images to "
+"use.<br /><br />These are the images displayed with the portfolio grid "
+"shortcode in a right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:56
+msgid "Two Column Portfolio"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:57
+msgid ""
+"Input the dimensions that you'd like the two column portfolio images to use."
+"<br /><br />These are the images displayed with the portfolio grid shortcode "
+"in a right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:63
+msgid "Three Column Portfolio"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:64
+msgid ""
+"Input the dimensions that you would like the three column portfolio images "
+"to use.<br /><br />These are the images displayed with the portfolio grid "
+"shortcode in a right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:70
+msgid "Four Column Portfolio"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:71
+msgid ""
+"Input the dimensions that you would like the four column portfolio images to "
+"use.<br /><br />These are the images displayed with the portfolio grid "
+"shortcode in a right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:77
+msgid "Portfolio Single Post"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:78
+msgid ""
+"Input the dimensions that you would like the portfolio single images to use."
+"<br /><br />These are the images displayed on the portfolio single post."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:89
+msgid "Blog Images Sizes"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:94
+msgid "One Column Blog (First Variant)"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:95
+msgid ""
+"Input the dimensions that you would like the one column blog images to use."
+"<br /><br />These are the images displayed with the blog grid shortcode in a "
+"right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:100
+msgid "One Column Blog (Second Variant)"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:101
+msgid ""
+"Input the dimensions that you would like the two column blog images to use."
+"<br /><br />These are the images displayed with the blog grid shortcode in a "
+"right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:106
+msgid "Two Column Blog"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:107
+msgid ""
+"Input the dimensions that you would like the three column blog images to use."
+"<br /><br />These are the images displayed with the blog grid shortcode in a "
+"right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:112
+msgid "Three Column Blog"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:113 ../options/lib/resize.inc.php:119
+msgid ""
+"Input the dimensions that you would like the four column blog images to use."
+"<br /><br />These are the images displayed with the blog grid shortcode in a "
+"right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:118
+msgid "Four Column Blog"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:125
+msgid "Small Post List"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:126
+msgid ""
+"Input the dimensions that you would like the \"small\" list thumbnails to "
+"use.<br /><br />These are the images displayed with the blog and portfolio "
+"list shortcode in a right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:131
+msgid "Medium Post List"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:132
+msgid ""
+"Input the dimensions that you would like the \"medium\" list thumbnails to "
+"use.<br /><br />These are the images displayed with the blog and portfolio "
+"list shortcode in a right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:137
+msgid "Large Post List"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:138
+msgid ""
+"Input the dimensions that you would like the \"large\" list thumbnails to "
+"use.<br /><br />These are the images displayed with the blog and portfolio "
+"list shortcode in a right sidebar layout."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:144
+msgid "Additional Posts Module"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:145
+msgid ""
+"Input the dimensions that you would like the additional posts thumbnails to "
+"use.<br /><br />These are the images displayed in the additional posts "
+"module."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:155
+msgid "Override Options"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:160
+msgid "Override image directory"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:161
+msgid "Check this option to override theme path (ABSOLUTE and URL)."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:163
+msgid "Override image path"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:168
+msgid "Override website URL"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:169
+msgid "This option can override website URL for images."
+msgstr ""
+
+#: ../options/lib/resize.inc.php:177
+msgid "Override website ABSOLUTE PATH"
+msgstr ""
+
+#: ../options/lib/resize.inc.php:178
+msgid "This option can override website ABSOLUTE PATH for images."
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:6
+msgid "Ranks"
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:16
+msgid "Enable reviews"
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:17
+msgid "Choose this option to enable or disable the post ranking."
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:27
+msgid "Active colour"
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:28
+msgid "Specify active icon colour."
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:35
+msgid "Inactive colour"
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:36
+msgid "Specify inactive icon colour."
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:43
+msgid "Icon size"
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:44
+msgid "Specify icon size."
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:52
+msgid "Icon"
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:53
+msgid "Specify default icon."
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:61
+msgid "Display reviews on: "
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:62
+msgid "Please choose where you would like to display the reviews. "
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:65
+msgid "Single Posts"
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:66
+msgid "Widgets"
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:72
+msgid "Review criterias"
+msgstr ""
+
+#: ../options/lib/reviews.inc.php:73
+msgid "Create your criterias to be used on review content"
+msgstr ""
+
+#: ../options/lib/sidebars.inc.php:7
+msgid "Sidebar"
+msgstr ""
+
+#: ../options/lib/sidebars.inc.php:17
+msgid "Sticky sidebar"
+msgstr ""
+
+#: ../options/lib/sidebars.inc.php:18
+msgid "Sticky sidebar make website sidebar visible for user on scroll. "
+msgstr ""
+
+#: ../options/lib/sidebars.inc.php:20
+msgid "Enable sticky sidebar"
+msgstr ""
+
+#: ../options/lib/sidebars.inc.php:25
+msgid "Create new sidebar"
+msgstr ""
+
+#: ../options/lib/sidebars.inc.php:26
+msgid ""
+"You can create additional sidebars to use. To display your new sidebar then "
+"you will need to select it in the &quot;Custom Sidebar&quot; dropdown when "
+"editing a post or page."
+msgstr ""
+
+#: ../options/lib/skins.inc.php:7
+msgid "Styles"
+msgstr ""
+
+#: ../options/lib/skins.inc.php:24
+msgid ""
+"Google Web Fonts Generator adding custom Google Font to theme. Please read "
+"theme documentation first."
+msgstr ""
+
+#: ../options/lib/skins.inc.php:34
+msgid "Style options"
+msgstr ""
+
+#: ../options/lib/skins.inc.php:35
+msgid ""
+"Select predefined style or use advanced style manager to design your unique "
+"style."
+msgstr ""
+
+#: ../options/lib/skins.inc.php:38
+msgid "Choose style"
+msgstr ""
+
+#: ../options/lib/skins.inc.php:39
+msgid "Manage style"
+msgstr ""
+
+#: ../options/lib/skins.inc.php:46
+msgid "Available styles"
+msgstr ""
+
+#: ../options/lib/skins.inc.php:47
+msgid "Please select predefined style."
+msgstr ""
+
+#: ../options/lib/slider.inc.php:7
+msgid "Image Slider"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:17
+msgid "Text Shorten"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:24
+msgid "This option will make title shorten by trimming words."
+msgstr ""
+
+#: ../options/lib/slider.inc.php:32
+msgid "Description Length"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:33
+msgid "This option will make slider description shorten by trimming words."
+msgstr ""
+
+#: ../options/lib/slider.inc.php:44
+msgid "Advanced Flex Slider Settings"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:51
+msgid "Select your animation type, \"fade\" or \"slide\""
+msgstr ""
+
+#: ../options/lib/slider.inc.php:57
+msgid "Fade"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:58
+msgid "Slide"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:63
+msgid "Direction"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:64
+msgid "Select the sliding direction, \"horizontal\" or \"vertical\""
+msgstr ""
+
+#: ../options/lib/slider.inc.php:69
+msgid "Vertical"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:70
+msgid "Horizontal"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:76
+msgid "Animate slider automatically"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:79 ../options/lib/slider.inc.php:106
+#: ../options/lib/slider.inc.php:117 ../options/lib/slider.inc.php:129
+#: ../options/lib/slider.inc.php:141 ../options/lib/slider.inc.php:169
+#: ../options/lib/slider.inc.php:197 ../options/lib/slider.inc.php:217
+#: ../options/lib/slider.inc.php:229 ../options/lib/slider.inc.php:241
+msgid "True"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:80 ../options/lib/slider.inc.php:107
+#: ../options/lib/slider.inc.php:118 ../options/lib/slider.inc.php:130
+#: ../options/lib/slider.inc.php:142 ../options/lib/slider.inc.php:170
+#: ../options/lib/slider.inc.php:198 ../options/lib/slider.inc.php:218
+#: ../options/lib/slider.inc.php:230 ../options/lib/slider.inc.php:242
+msgid "False"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:86
+msgid "Slideshow Speed"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:87
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:94
+msgid "Animation Duration"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:95
+msgid "Set the speed of animations, in milliseconds"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:102
+msgid "Direction Navigation"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:103
+msgid "Create navigation for previous/next navigation? (true/false)"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:113
+msgid "Control Navigation"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:114
+msgid "Create navigation for paging control of each slide?"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:125
+msgid "Keyboard Navigation"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:126
+msgid "Allow slider navigating via keyboard left/right keys"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:137
+msgid "Mousewheel Navigation"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:138
+msgid "Allow slider navigating via mousewheel"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:149
+msgid "Previous Text"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:150
+msgid "Set the text for the \"previous\" directionNav item"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:157
+msgid "Next Text"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:158
+msgid "Set the text for the \"next\" directionNav item"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:165
+msgid "Pause / Play Dynamic element"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:166
+msgid "Create pause/play dynamic element"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:177
+msgid "Pause Text"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:178
+msgid "Set the text for the \"pause\" pausePlay item"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:185
+msgid "Play Text"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:186
+msgid "Set the text for the \"play\" pausePlay item"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:193
+msgid "Randomize"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:194
+msgid "Randomize slide order"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:205
+msgid "Starting slide"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:206
+msgid ""
+"The slide that the slider should start on. Array notation (0 = first slide)"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:213
+msgid "Animation Loop"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:214
+msgid ""
+"Should the animation loop? If false, directionNav will received \"disable\" "
+"classes at either end"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:225
+msgid "Pause on Action"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:226
+msgid ""
+"Pause the slideshow when interacting with control elements, highly "
+"recommended."
+msgstr ""
+
+#: ../options/lib/slider.inc.php:237
+msgid "Pause on Hover"
+msgstr ""
+
+#: ../options/lib/slider.inc.php:238
+msgid ""
+"Pause the slideshow when hovering over slider, then resume when no longer "
+"hovering"
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:7 ../options/lib/sociable.inc.php:64
+msgid "Sociable"
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:17
+msgid "Twitter username"
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:18
+msgid "Please enter twitter user name (screen name)."
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:27
+msgid "Twitter access token"
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:28
+msgid "Please enter global oAuth access token."
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:30
+msgid ""
+"You can get Twitter API 1.1 tokens from dev.twitter.com. Please <a href="
+"\"http://cdn.irishmiss.com/d/startup/doc-twitter-oauth.html\">follow API 1.1 "
+"instructions here</a>"
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:37
+msgid "Twitter access secret"
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:38
+msgid "Please enter global oAuth access secret."
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:46
+msgid "Twitter consumer key"
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:47
+msgid "Please enter global consumer key."
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:55
+msgid "Twitter consumer secret"
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:56
+msgid "Please enter global consumer secret."
+msgstr ""
+
+#: ../options/lib/sociable.inc.php:65
+msgid "Sociable Generator helping link and add social icons to website"
+msgstr ""
+
+#: ../options/lib/store.inc.php:6
+msgid "Store / Woocommerce"
+msgstr ""
+
+#: ../options/lib/store.inc.php:17
+msgid "Page title"
+msgstr ""
+
+#: ../options/lib/store.inc.php:18
+msgid "WooCommerce home title."
+msgstr ""
+
+#: ../options/lib/store.inc.php:24
+msgid "Page tagline"
+msgstr ""
+
+#: ../options/lib/store.inc.php:25
+msgid "Enter shop page tagline."
+msgstr ""
+
+#: ../options/lib/store.inc.php:31
+msgid "Header slider"
+msgstr ""
+
+#: ../options/lib/store.inc.php:32
+msgid "Select custom slider type for Woocommerce page."
+msgstr ""
+
+#: ../options/lib/store.inc.php:36
+msgid "Slider Revolution"
+msgstr ""
+
+#: ../options/lib/store.inc.php:37
+msgid "Recent Products Expose Grid"
+msgstr ""
+
+#: ../options/lib/store.inc.php:43
+msgid "Layer slider group"
+msgstr ""
+
+#: ../options/lib/store.inc.php:44
+msgid "Select slides for Layer Slider."
+msgstr ""
+
+#: ../options/lib/store.inc.php:51
+msgid "Revolution slider group"
+msgstr ""
+
+#: ../options/lib/store.inc.php:52
+msgid "Select slides for Revolution Slider."
+msgstr ""
+
+#: ../options/lib/store.inc.php:59
+msgid "Store layout"
+msgstr ""
+
+#: ../options/lib/store.inc.php:60
+msgid "Select Woocommerce / store layout type."
+msgstr ""
+
+#: ../options/lib/store.inc.php:70
+msgid "Catalog column layout"
+msgstr ""
+
+#: ../options/lib/store.inc.php:71
+msgid ""
+"Select which column layout you would like to display with your woocommerce "
+"catalog."
+msgstr ""
+
+#: ../options/lib/store.inc.php:83
+msgid "Show categories"
+msgstr ""
+
+#: ../options/lib/store.inc.php:84
+msgid "Check this option to display product categories below overview."
+msgstr ""
+
+#: ../options/lib/store.inc.php:86
+msgid "Show Categories"
+msgstr ""
+
+#: ../options/lib/store.inc.php:91
+msgid "Display banners"
+msgstr ""
+
+#: ../options/lib/store.inc.php:92
+msgid "You can choose whether you wish to display banner."
+msgstr ""
+
+#: ../options/lib/store.inc.php:95
+msgid "Display only for store front-page"
+msgstr ""
+
+#: ../options/lib/store.inc.php:96
+msgid "Display on all store pages"
+msgstr ""
+
+#: ../options/lib/store.inc.php:97
+msgid "Hide banners"
+msgstr ""
+
+#: ../options/lib/store.inc.php:102
+msgid "Store banner #1"
+msgstr ""
+
+#: ../options/lib/store.inc.php:103
+msgid "Upload store header banner #1."
+msgstr ""
+
+#: ../options/lib/store.inc.php:108
+msgid "Store banner #1 Link"
+msgstr ""
+
+#: ../options/lib/store.inc.php:109
+msgid "Add banner #1 link."
+msgstr ""
+
+#: ../options/lib/store.inc.php:114
+msgid "Store banner #2"
+msgstr ""
+
+#: ../options/lib/store.inc.php:115
+msgid "Upload store header banner #2."
+msgstr ""
+
+#: ../options/lib/store.inc.php:120
+msgid "Store banner #2 Link"
+msgstr ""
+
+#: ../options/lib/store.inc.php:121
+msgid "Add banner #2 link."
+msgstr ""
+
+#: ../options/lib/store.inc.php:126
+msgid "Store banner #3"
+msgstr ""
+
+#: ../options/lib/store.inc.php:127
+msgid "Upload store header banner #3."
+msgstr ""
+
+#: ../options/lib/store.inc.php:132
+msgid "Store banner #3 Link"
+msgstr ""
+
+#: ../options/lib/store.inc.php:133
+msgid "Add banner #3 link."
+msgstr ""
+
+#: ../options/lib/store.inc.php:138
+msgid "Store banner #4"
+msgstr ""
+
+#: ../options/lib/store.inc.php:139
+msgid "Upload store header banner #4."
+msgstr ""
+
+#: ../options/lib/store.inc.php:144
+msgid "Store banner #4 Link"
+msgstr ""
+
+#: ../options/lib/store.inc.php:145
+msgid "Add banner #4 link."
+msgstr ""
+
+#: ../options/lib/support.inc.php:7
+msgid "Support"
+msgstr ""
+
+#: ../options/lib/support.inc.php:17
+msgid "Theme documentation"
+msgstr ""
+
+#: ../options/lib/support.inc.php:19
+msgid ""
+"Documentation been included with theme bundle (bundle.zip). Please download "
+"theme files and open \"documentation\" folder from downloaded directory. "
+"Also you may use online-documentation <a href=\"http://cdn.irishmiss.com/d/"
+"startup/\" target=\"_BLANK\">here</a>."
+msgstr ""
+
+#: ../options/lib/support.inc.php:23
+msgid "Purchase code"
+msgstr ""
+
+#: ../options/lib/support.inc.php:25
+msgid "Please enter purchase code for theme updates."
+msgstr ""
+
+#: ../options/lib/support.inc.php:29
+msgid "Theme support"
+msgstr ""
+
+#: ../options/lib/support.inc.php:31
+msgid ""
+"We truly appreciate your purchase and your issues is also important for us! "
+"To improve any support aspect we launched helpdesk system which may help to "
+"you work with our team, solve important issues and accept all additional "
+"theme features and improvements. When you'll create your ticket, we'll "
+"registered your ticket inside our CRM, then we'll review it and assign "
+"appropriated person from our team which may help you as soon as possible."
+"<br />Click to <a href=\"http://helpdesk.irishmiss.com/\">add your issue "
+"&rarr;</a>."
+msgstr ""

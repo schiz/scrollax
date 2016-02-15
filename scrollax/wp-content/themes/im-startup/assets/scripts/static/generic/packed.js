@@ -1,0 +1,8 @@
+
+/**
+ * ./work/im-startup/assets/scripts/static/generic/custom.js
+ * Generated: 2013-09-13 16:56:51 +0100
+ */
+
+
+jQuery(document).ready(function(){}),jQuery(document).ready(function(){jQuery(".hover_fade_js").live("hover",function(e){"mouseenter"==e.type&&jQuery(this).stop().animate({opacity:.7},400),"mouseleave"==e.type&&jQuery(this).stop().animate({opacity:1},400)}),jQuery(".toggle").toggle(function(){jQuery(this).addClass("active")},function(){jQuery(this).removeClass("active")}),jQuery(".toggle_frame_set").each(function(){var e=jQuery(this),t=e.find(".toggle_accordion"),i=e.find(".toggle"),a="click";jQuery(window).width()<979&&(a="mouseover"),t.length>0&&t.bind(a,function(){return jQuery(this).next().is(":hidden")?(e.find(".toggle_accordion").removeClass("active").next().slideUp(),jQuery(this).toggleClass("active").next().slideDown()):e.find(".toggle_accordion").removeClass("active").next().slideUp(),!1}),i.length>0&&i.bind(a,function(){return jQuery(this).next().is(":hidden")?jQuery(this).toggleClass("active").next().slideDown():e.find(".toggle").removeClass("active").next().slideUp(),!1})}),jQuery("img.reflect").reflect({height:.5,opacity:.5}),jQuery("a.email_link_noreplace").nospam({replaceText:!1,filterLevel:"normal"}),jQuery("a.email_link_replace").nospam({replaceText:!0,filterLevel:"normal"}),jQuery(".contact_form_submit").click(function(){clearInterval(preLoaderSmall),preLoaderCount=0,missPreloaderSmall(".miss_contact_feedback"),jQuery(this).next().css("display","inline-block")}),jQuery(".flickr_badge_image a").attr("target","_blank"),jQuery(".target_blank").attr("target","_blank")});

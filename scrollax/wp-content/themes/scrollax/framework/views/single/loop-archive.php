@@ -1,0 +1,3 @@
+<?php
+miss_archive();
+?>

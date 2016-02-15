@@ -1,0 +1,185 @@
+// Mixins
+// --------------------------------------------------------------------------------
+
+// Border radius
+.border-radius-mx(@radius) {
+	-webkit-border-radius: @radius;
+	   -moz-border-radius: @radius;
+	    -ms-border-radius: @radius;
+	     -o-border-radius: @radius;
+	        border-radius: @radius;
+}
+.border-radius-top-left-mx(@radius) {
+	-webkit-border-top-left-radius: @radius;
+	   -moz-border-top-left-radius: @radius;
+	    -ms-border-top-left-radius: @radius;
+	     -o-border-top-left-radius: @radius;
+	        border-top-left-radius: @radius;
+}
+.border-radius-top-right-mx(@radius) {
+	-webkit-border-top-right-radius: @radius;
+	   -moz-border-top-right-radius: @radius;
+	    -ms-border-top-right-radius: @radius;
+	     -o-border-top-right-radius: @radius;
+	        border-top-right-radius: @radius;
+}
+.border-radius-bottom-right-mx(@radius) {
+	-webkit-border-bottom-right-radius: @radius;
+	   -moz-border-bottom-right-radius: @radius;
+	    -ms-border-bottom-right-radius: @radius;
+	     -o-border-bottom-right-radius: @radius;
+	        border-bottom-right-radius: @radius;
+}
+.border-radius-bottom-left-mx(@radius) {
+	-webkit-border-bottom-left-radius: @radius;
+	   -moz-border-bottom-left-radius: @radius;
+	    -ms-border-bottom-left-radius: @radius;
+	     -o-border-bottom-left-radius: @radius;
+	        border-bottom-left-radius: @radius;
+}
+
+// Center
+.all-center-mx(@widht, @height, @display) {
+	display:     @display;
+	width:       @widht;
+	height:      @height;
+	line-height: @height;
+	text-align:  center;
+}
+
+// Box sizing
+.box-sizing-mx(@box-sizing) when (@box-sizing = true) {
+	@box-sizing: border-box;
+
+	-webkit-box-sizing: @box-sizing;
+	   -moz-box-sizing: @box-sizing;
+	    -ms-box-sizing: @box-sizing;
+	     -o-box-sizing: @box-sizing;
+	        box-sizing: @box-sizing;
+}
+.box-sizing-mx(@box-sizing) when (@box-sizing = false) {
+	@box-sizing: content-box;
+
+	-webkit-box-sizing: @box-sizing;
+	   -moz-box-sizing: @box-sizing;
+	    -ms-box-sizing: @box-sizing;
+	     -o-box-sizing: @box-sizing;
+	        box-sizing: @box-sizing;
+}
+
+// Link
+.td(@decor) when (@decor = none) {
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+.td(@decor) when (@decor = hover) {
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.td(@decor) when (@decor = invert) {
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+// Box Shadow
+.box-shadow-none() {
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	    -ms-box-shadow: none;
+	        box-shadow: none;
+}
+.box-shadow(@param) {
+	-webkit-box-shadow: @param;
+	   -moz-box-shadow: @param;
+	    -ms-box-shadow: @param;
+	        box-shadow: @param;
+}
+
+.text-shadow(@param) {
+	-webkit-text-shadow: @param;
+	   -moz-text-shadow: @param;
+	    -ms-text-shadow: @param;
+	        text-shadow: @param;
+}
+
+// Transition
+.transition-none() {
+	-webkit-transition: none;
+	   -moz-transition: none;
+	    -ms-transition: none;
+	        transition: none;
+}
+.transition(@param) {
+	-webkit-transition: @param;
+	   -moz-transition: @param;
+	    -ms-transition: @param;
+	        transition: @param;
+}
+.transition2(@param1, @param2) {
+	-webkit-transition: @param1, @param2;
+	   -moz-transition: @param1, @param2;
+	    -ms-transition: @param1, @param2;
+	        transition: @param1, @param2;
+}
+
+// Column
+.column-count(@param) {
+	-webkit-column-count: @param;
+	   -moz-column-count: @param;
+	    -ms-column-count: @param;
+	        column-count: @param;
+}
+.columns-gap(@param) {
+	-webkit-columns-gap: @param;
+	   -moz-columns-gap: @param;
+	    -ms-columns-gap: @param;
+	        columns-gap: @param;
+}
+
+// transform
+.transform(@param) {
+	-webkit-transform: @param;
+	   -moz-transform: @param;
+	    -ms-transform: @param;
+	        transform: @param;
+}
+
+// animation-timing-function
+.animation-timing-function(@param) {
+	-webkit-animation-timing-function: @param;
+	   -moz-animation-timing-function: @param;
+	    -ms-animation-timing-function: @param;
+	        animation-timing-function: @param;
+}
+
+// animation
+.animation(@param) {
+	-webkit-animation: @param;
+	   -moz-animation: @param;
+	    -ms-animation: @param;
+	        animation: @param;
+}
+
+// Clearfix
+.clearfix() {
+	&:before,
+	&:after {
+	  display: table;
+	  content: "";
+	  line-height: 0;
+	}
+	&:after {
+	  clear: both;
+	}
+ 	
+ 	*zoom: 1;
+}

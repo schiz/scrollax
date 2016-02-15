@@ -1,0 +1,285 @@
+.ttw-music-player {
+}
+
+.ttw-music-player .player {
+}
+
+/** Album Cover **/
+.ttw-music-player .album-cover {
+}
+
+.ttw-music-player .album-cover .img {
+}
+
+.ttw-music-player .album-cover .highlight {
+    background: transparent url(../images/album-cover-highlight.png) no-repeat 0 0 scroll;
+    opacity: 1;
+    display: none;
+}
+
+.ttw-music-player .album-cover:hover .highlight {
+    opacity: 1;
+}
+
+.ttw-music-player .album-cover,
+.ttw-music-player .album-cover .img,
+.ttw-music-player .album-cover .highlight {
+}
+
+.ttw-music-player .album-cover img,
+.ttw-music-player .album-cover .img,
+.ttw-music-player .album-cover .highlight {
+}
+
+/** Track Info **/
+.ttw-music-player .track-info {
+}
+
+.ttw-music-player .track-info p {
+    margin: 0 0 8px 0;
+}
+
+.ttw-music-player .player .title {
+    margin: 0;
+}
+
+.ttw-music-player h2.caption {
+    margin-bottom: 0;
+}
+.ttw-music-player .artist-outer {
+    margin: 0 0 15px 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.ttw-music-player .artist-outer.artist {
+}
+.ttw-music-player .artist {
+}
+
+.ttw-music-player .rating {
+    width: 75px;
+    height: 16px;
+    clear: right;
+    float: right;
+}
+
+.ttw-music-player .rating-star {
+    width: 15px;
+    height: 16px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.ttw-music-player .rating-star:hover,
+.ttw-music-player .rating-star.on,
+.ttw-music-player .rating-star.hover {
+}
+
+/** Player **/
+.ttw-music-player .player-controls {
+    height: 45px;
+    margin: 5px 0px;
+    clear: both;
+}
+
+.ttw-music-player .player-controls .main {
+    width: 25%;
+    padding-left: 5%;
+    height: 12px;
+    margin: 15px 0;
+    float: left;
+}
+.ttw-music-player .player-controls i {
+    font-size: 9px;
+}
+.ttw-music-player .player-controls div {
+    float: left;
+    cursor: pointer;
+}
+.ttw-music-player .jp-mute i, .ttw-music-player .jp-unmute i {
+    font-size: 12px;
+    line-height: 17px;
+}
+.ttw-music-player .jp-mute, .ttw-music-player .jp-unmute {
+    height: 10px;
+    width: 13px;
+    line-height: 13px;
+}
+.ttw-music-player .previous, .ttw-music-player .next {
+    height: 10px;
+    width: 13px;
+    line-height: 13px;
+}
+
+.ttw-music-player .play, .ttw-music-player .pause {
+    line-height: 13px;
+    width: 8px;
+    height: 12px;
+    margin: 0 7px 0 1px;
+}
+
+.ttw-music-player .jp-duration {
+    width: 15%;
+    font-size: 11px;
+    line-height: 45px;
+}
+.ttw-music-player .progress-wrapper {
+    height: 11px;
+    width: 50%;
+    padding-right: 3%;
+    float: left;
+    margin: 17px 0 13px 0;
+}
+
+.ttw-music-player .progress {
+    height: 11px;
+    width: 90%;
+    margin-right:10%;
+    cursor: pointer;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+.ttw-music-player .elapsed {
+    height: 9px;
+    margin: 1px;
+    width: 50%;
+}
+
+.ttw-music-player .unused-controls {
+    display: none !important;
+}
+
+/** Description **/
+.ttw-music-player .description {
+    clear: both;
+    margin: 30px 0 0 0;
+    font-size: 12px;
+}
+
+.ttw-music-player .description.showing{
+    margin:30px 0;
+}
+
+/** Track List **/
+.ttw-music-player .tracklist {
+    float: none;
+    clear: both;
+
+}
+
+.ttw-music-player .tracklist ol.tracks {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ttw-music-player .tracklist ol li.track,
+.ttw-music-player .tracklist ol li.track:last-child {
+    display: block;
+    clear: both;
+    line-height: 32px;
+    height: 32px;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+}
+
+.ttw-music-player li:last-child{
+    background: none;
+}
+
+.ttw-music-player .tracklist .title {
+    width: 60%;
+    min-height: 32px;
+    line-height: 32px;
+    display: block;
+    float: left;
+    padding: 0;
+    clear: left;
+    cursor: pointer;
+}
+
+.ttw-music-player li:nth-child(1n + 10) .title{
+}
+
+.ttw-music-player li.playing {
+}
+.ttw-music-player .tracklist .meta {
+    height: 32px;
+    margin: 0;
+    width: 40%;
+    float: left;
+    clear: right;
+    line-height:100%;
+}
+.ttw-music-player .tracklist .duration {
+    padding-left:10px;
+    display: block;
+    text-align: right;
+}
+.ttw-music-player .tracklist .buy {
+    text-align: right;
+    margin-top:5px;
+}
+.ttw-music-player .tracklist .rating {
+    width: 15%;
+    display: none;
+}
+
+.ttw-music-player .rating-bar {
+    height: 10px;
+    display: none;
+    width: 3px;
+    float: left;
+    cursor: pointer;
+}
+
+.ttw-music-player .rating-bar.on,
+.ttw-music-player .rating-bar:hover,
+.ttw-music-player .rating-bar.hover {
+}
+
+.ttw-music-player .buy {
+    display: block;
+    font-size: 10px;
+    text-align: right;
+}
+
+.ttw-music-player .buy:hover {
+}
+
+.ttw-music-player .buy.not-active{
+    display:none;
+}
+
+.ttw-music-player .more {
+    display:none;
+}
+
+.ttw-music-player .more:hover {
+}
+.ttw-music-player .tracklist .more{
+    display:block;
+    text-align: center;
+}
+
+/** Transitions **/
+.ttw-music-player .more,
+.ttw-music-player .album-cover .highlight,
+.ttw-music-player .tracklist li,
+.ttw-music-player .buy {
+}
+
+.ttw-music-player .player:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
